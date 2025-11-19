@@ -1,0 +1,6 @@
+2025-10-27 13:33:03,820 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:33:03,821 [INFO] [root] [MainThread]: Processing FINNIFTY from NFO exchange
+2025-10-27 13:33:03,821 [INFO] [root] [MainThread]: Detected yearly folder structure in NFO
+2025-10-27 13:33:04,342 [INFO] [root] [MainThread]: Found 0 unique dates in NFO
+2025-10-27 13:33:04,342 [INFO] [root] [MainThread]: Got following folder info {} for processing {'index': 'FINNIFTY', 'instrument_type': 'put'}.
+2025-10-27 13:33:04,342 [INFO] [root] [MainThread]: Utility stopped.

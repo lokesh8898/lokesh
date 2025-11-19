@@ -1,0 +1,17 @@
+2025-10-27 13:50:07,038 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:50:07,038 [INFO] [root] [MainThread]: Processing SENSEX from BFO exchange
+2025-10-27 13:50:07,039 [INFO] [root] [MainThread]: Found date 03012025 from folder name: BFO_TICK_03012025 for exchange BFO
+2025-10-27 13:50:07,039 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'BFO\\BFO_TICK_03012025\\BFO_TICK_03012025'}} for processing {'index': 'SENSEX', 'instrument_type': 'future'}.
+2025-10-27 13:50:07,042 [INFO] [root] [MainThread]: Started processing folder: BFO\BFO_TICK_03012025\BFO_TICK_03012025 for {'index': 'SENSEX', 'instrument_type': 'future'}, date: 03012025
+2025-10-27 13:50:07,054 [INFO] [root] [MainThread]: Started processing: BFO\BFO_TICK_03012025\BFO_TICK_03012025\SENSEX03JAN25FUT.BFO.csv
+2025-10-27 13:50:07,083 [INFO] [root] [MainThread]: Successfully processed: BFO\BFO_TICK_03012025\BFO_TICK_03012025\SENSEX03JAN25FUT.BFO.csv
+2025-10-27 13:50:07,083 [INFO] [root] [MainThread]: Started processing: BFO\BFO_TICK_03012025\BFO_TICK_03012025\SENSEX07JAN25FUT.BFO.csv
+2025-10-27 13:50:07,098 [INFO] [root] [MainThread]: Successfully processed: BFO\BFO_TICK_03012025\BFO_TICK_03012025\SENSEX07JAN25FUT.BFO.csv
+2025-10-27 13:50:07,098 [INFO] [root] [MainThread]: Started processing: BFO\BFO_TICK_03012025\BFO_TICK_03012025\SENSEX14JAN25FUT.BFO.csv
+2025-10-27 13:50:07,111 [INFO] [root] [MainThread]: Successfully processed: BFO\BFO_TICK_03012025\BFO_TICK_03012025\SENSEX14JAN25FUT.BFO.csv
+2025-10-27 13:50:07,111 [INFO] [root] [MainThread]: Started processing: BFO\BFO_TICK_03012025\BFO_TICK_03012025\SENSEX25FEB25FUT.BFO.csv
+2025-10-27 13:50:07,123 [INFO] [root] [MainThread]: Successfully processed: BFO\BFO_TICK_03012025\BFO_TICK_03012025\SENSEX25FEB25FUT.BFO.csv
+2025-10-27 13:50:07,124 [INFO] [root] [MainThread]: Started processing: BFO\BFO_TICK_03012025\BFO_TICK_03012025\SENSEX28JAN25FUT.BFO.csv
+2025-10-27 13:50:07,137 [INFO] [root] [MainThread]: Successfully processed: BFO\BFO_TICK_03012025\BFO_TICK_03012025\SENSEX28JAN25FUT.BFO.csv
+2025-10-27 13:50:07,174 [INFO] [root] [MainThread]: Saved 5 future files to ProcessedParquet\sensex_future_03012025.parquet (1796 rows)
+2025-10-27 13:50:07,174 [INFO] [root] [MainThread]: Utility stopped.

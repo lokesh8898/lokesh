@@ -1,0 +1,6 @@
+2025-10-27 13:32:55,407 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:32:55,407 [INFO] [root] [MainThread]: Processing BANKNIFTY from NFO exchange
+2025-10-27 13:32:55,407 [INFO] [root] [MainThread]: Detected yearly folder structure in NFO
+2025-10-27 13:32:55,885 [INFO] [root] [MainThread]: Found 0 unique dates in NFO
+2025-10-27 13:32:55,885 [INFO] [root] [MainThread]: Got following folder info {} for processing {'index': 'BANKNIFTY', 'instrument_type': 'call'}.
+2025-10-27 13:32:55,886 [INFO] [root] [MainThread]: Utility stopped.

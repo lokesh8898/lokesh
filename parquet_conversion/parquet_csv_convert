@@ -1,0 +1,153 @@
+"""
+Utility script to convert Parquet files back to CSV format
+Useful if you need to view data in Excel or other CSV-compatible tools
+"""
+
+import pandas as pd
+import os
+from pathlib import Path
+
+def convert_parquet_to_csv(parquet_file, csv_file=None):
+    """
+    Convert a single Parquet file to CSV
+    
+    Args:
+        parquet_file: Path to input .parquet file
+        csv_file: Path to output .csv file (optional, auto-generated if not provided)
+    """
+    try:
+        # Auto-generate CSV filename if not provided
+        if csv_file is None:
+            csv_file = parquet_file.replace('.parquet', '.csv')
+        
+        print(f"Converting: {parquet_file}")
+        
+        # Read Parquet file
+        df = pd.read_parquet(parquet_file)
+        
+        # Write to CSV
+        df.to_csv(csv_file, index=False)
+        
+        # Show file sizes
+        parquet_size = os.path.getsize(parquet_file) / 1024
+        csv_size = os.path.getsize(csv_file) / 1024
+        compression_ratio = (1 - parquet_size / csv_size) * 100
+        
+        print(f"✓ Converted successfully!")
+        print(f"  Parquet size: {parquet_size:.2f} KB")
+        print(f"  CSV size: {csv_size:.2f} KB")
+        print(f"  Space saved by Parquet: {compression_ratio:.1f}%")
+        print(f"  Output: {csv_file}")
+        print(f"  Records: {len(df):,}\n")
+        
+        return csv_file
+    except Exception as e:
+        print(f"✗ Error converting {parquet_file}: {e}\n")
+        return None
+
+def batch_convert_directory(input_dir='parquet_output', output_dir='csv_output'):
+    """
+    Convert all Parquet files in a directory to CSV
+    
+    Args:
+        input_dir: Directory containing .parquet files
+        output_dir: Directory to save .csv files
+    """
+    try:
+        # Create output directory if it doesn't exist
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+        
+        # Find all .parquet files
+        parquet_files = list(Path(input_dir).glob('*.parquet'))
+        
+        if not parquet_files:
+            print(f"No Parquet files found in '{input_dir}'")
+            return
+        
+        print("=" * 70)
+        print(f"Batch Parquet to CSV Converter")
+        print(f"Found {len(parquet_files)} Parquet file(s)")
+        print("=" * 70)
+        print()
+        
+        successful = 0
+        failed = 0
+        
+        for parquet_file in parquet_files:
+            # Generate output CSV path
+            csv_filename = parquet_file.stem + '.csv'
+            csv_file = os.path.join(output_dir, csv_filename)
+            
+            # Convert
+            if convert_parquet_to_csv(str(parquet_file), csv_file):
+                successful += 1
+            else:
+                failed += 1
+        
+        print("=" * 70)
+        print(f"Conversion complete: ✓ {successful} successful, ✗ {failed} failed")
+        print(f"CSV files saved to: {output_dir}/")
+        print("=" * 70)
+        
+    except Exception as e:
+        print(f"✗ Error during batch conversion: {e}")
+
+def main():
+    """Main function for interactive conversion"""
+    import sys
+    
+    print("=" * 70)
+    print("Parquet to CSV Converter")
+    print("=" * 70)
+    print()
+    
+    if len(sys.argv) > 1:
+        # Command-line argument provided
+        input_path = sys.argv[1]
+        
+        if os.path.isfile(input_path):
+            # Single file
+            convert_parquet_to_csv(input_path)
+        elif os.path.isdir(input_path):
+            # Directory
+            output_dir = sys.argv[2] if len(sys.argv) > 2 else 'csv_output'
+            batch_convert_directory(input_path, output_dir)
+        else:
+            print(f"✗ File or directory not found: {input_path}")
+    else:
+        # Interactive mode
+        print("Options:")
+        print("  1. Convert single Parquet file")
+        print("  2. Convert all Parquet files in parquet_output/")
+        print("  3. Convert all Parquet files in custom directory")
+        print("=" * 70)
+        
+        choice = input("Enter option (1-3): ").strip()
+        
+        if choice == '1':
+            parquet_file = input("Enter path to Parquet file: ").strip()
+            if os.path.exists(parquet_file):
+                convert_parquet_to_csv(parquet_file)
+            else:
+                print(f"✗ File not found: {parquet_file}")
+        
+        elif choice == '2':
+            batch_convert_directory('parquet_output', 'csv_output')
+        
+        elif choice == '3':
+            input_dir = input("Enter input directory: ").strip()
+            output_dir = input("Enter output directory (default: csv_output): ").strip()
+            if not output_dir:
+                output_dir = 'csv_output'
+            
+            if os.path.exists(input_dir):
+                batch_convert_directory(input_dir, output_dir)
+            else:
+                print(f"✗ Directory not found: {input_dir}")
+        else:
+            print("✗ Invalid option")
+
+if __name__ == "__main__":
+    main()
+

@@ -1,0 +1,7 @@
+2025-10-27 13:36:14,739 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:36:14,739 [INFO] [root] [MainThread]: Processing MIDCPNIFTY from NFO exchange
+2025-10-27 13:36:14,739 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025 for exchange NFO
+2025-10-27 13:36:14,740 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'MIDCPNIFTY', 'instrument_type': 'future'}.
+2025-10-27 13:36:14,740 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'MIDCPNIFTY', 'instrument_type': 'future'}, date: 03012025
+2025-10-27 13:36:14,741 [INFO] [root] [MainThread]: MIDCPNIFTY, Unable to find future file. Hence, can't process data.
+2025-10-27 13:36:14,741 [INFO] [root] [MainThread]: Utility stopped.

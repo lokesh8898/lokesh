@@ -1,0 +1,4 @@
+2025-10-27 13:33:16,543 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:33:16,544 [INFO] [root] [MainThread]: Processing SENSEX from BFO exchange
+2025-10-27 13:33:16,571 [INFO] [root] [MainThread]: Got following folder info {} for processing {'index': 'SENSEX', 'instrument_type': 'future'}.
+2025-10-27 13:33:16,571 [INFO] [root] [MainThread]: Utility stopped.

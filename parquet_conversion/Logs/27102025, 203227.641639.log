@@ -1,0 +1,5 @@
+2025-10-27 20:32:27,642 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 20:32:27,642 [INFO] [root] [MainThread]: Processing SENSEX from BFO exchange
+2025-10-27 20:32:27,643 [ERROR] [root] [MainThread]: Folder does not exist: NFO\BFO_TICK_03012025
+2025-10-27 20:32:27,643 [INFO] [root] [MainThread]: Got following folder info {} for processing {'index': 'SENSEX', 'instrument_type': 'future'}.
+2025-10-27 20:32:27,643 [INFO] [root] [MainThread]: Utility stopped.

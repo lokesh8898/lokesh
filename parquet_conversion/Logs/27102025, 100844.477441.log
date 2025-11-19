@@ -1,0 +1,7 @@
+2025-10-27 10:08:44,477 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 10:08:44,478 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025
+2025-10-27 10:08:44,478 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'MIDCPNIFTY', 'instrument_type': 'future'}.
+2025-10-27 10:08:44,478 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'MIDCPNIFTY', 'instrument_type': 'future'}
+2025-10-27 10:08:44,479 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Futures\-I\MIDCPNIFTY-I.NFO.csv
+2025-10-27 10:08:44,542 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_future_03012025.csv
+2025-10-27 10:08:44,542 [INFO] [root] [MainThread]: Utility stopped.

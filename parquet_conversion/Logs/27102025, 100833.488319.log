@@ -1,0 +1,146 @@
+2025-10-27 10:08:33,489 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 10:08:33,489 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025
+2025-10-27 10:08:33,489 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'FINNIFTY', 'instrument_type': 'put'}.
+2025-10-27 10:08:33,490 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'FINNIFTY', 'instrument_type': 'put'}
+2025-10-27 10:08:33,522 [INFO] [root] [MainThread]: Found 70 put option files to process for FINNIFTY.
+2025-10-27 10:08:33,532 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2520000PE.NFO.csv
+2025-10-27 10:08:33,555 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,555 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2520500PE.NFO.csv
+2025-10-27 10:08:33,571 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,572 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2521000PE.NFO.csv
+2025-10-27 10:08:33,592 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,592 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2521100PE.NFO.csv
+2025-10-27 10:08:33,606 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,606 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2521200PE.NFO.csv
+2025-10-27 10:08:33,619 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,619 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2521300PE.NFO.csv
+2025-10-27 10:08:33,633 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,634 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2521400PE.NFO.csv
+2025-10-27 10:08:33,649 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,650 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2521500PE.NFO.csv
+2025-10-27 10:08:33,670 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,671 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2521600PE.NFO.csv
+2025-10-27 10:08:33,687 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,687 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2521700PE.NFO.csv
+2025-10-27 10:08:33,707 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,707 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2521800PE.NFO.csv
+2025-10-27 10:08:33,727 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,727 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522000PE.NFO.csv
+2025-10-27 10:08:33,751 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,751 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522100PE.NFO.csv
+2025-10-27 10:08:33,763 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,763 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522200PE.NFO.csv
+2025-10-27 10:08:33,779 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,780 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522250PE.NFO.csv
+2025-10-27 10:08:33,795 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,795 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522300PE.NFO.csv
+2025-10-27 10:08:33,813 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,813 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522350PE.NFO.csv
+2025-10-27 10:08:33,839 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,839 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522400PE.NFO.csv
+2025-10-27 10:08:33,857 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,857 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522450PE.NFO.csv
+2025-10-27 10:08:33,883 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,883 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522500PE.NFO.csv
+2025-10-27 10:08:33,920 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,920 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522550PE.NFO.csv
+2025-10-27 10:08:33,949 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,949 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522600PE.NFO.csv
+2025-10-27 10:08:33,973 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:33,973 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522650PE.NFO.csv
+2025-10-27 10:08:34,001 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,001 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522700PE.NFO.csv
+2025-10-27 10:08:34,022 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,023 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522750PE.NFO.csv
+2025-10-27 10:08:34,050 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,050 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522800PE.NFO.csv
+2025-10-27 10:08:34,071 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,071 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522850PE.NFO.csv
+2025-10-27 10:08:34,110 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,111 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522900PE.NFO.csv
+2025-10-27 10:08:34,127 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,127 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522950PE.NFO.csv
+2025-10-27 10:08:34,152 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,152 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523000PE.NFO.csv
+2025-10-27 10:08:34,192 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,192 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523050PE.NFO.csv
+2025-10-27 10:08:34,215 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,216 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523100PE.NFO.csv
+2025-10-27 10:08:34,233 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,233 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523150PE.NFO.csv
+2025-10-27 10:08:34,257 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,257 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523200PE.NFO.csv
+2025-10-27 10:08:34,275 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,276 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523250PE.NFO.csv
+2025-10-27 10:08:34,303 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,303 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523300PE.NFO.csv
+2025-10-27 10:08:34,323 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,323 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523350PE.NFO.csv
+2025-10-27 10:08:34,354 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,354 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523400PE.NFO.csv
+2025-10-27 10:08:34,388 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,388 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523450PE.NFO.csv
+2025-10-27 10:08:34,419 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,419 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523500PE.NFO.csv
+2025-10-27 10:08:34,469 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,469 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523550PE.NFO.csv
+2025-10-27 10:08:34,504 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,504 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523600PE.NFO.csv
+2025-10-27 10:08:34,543 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,543 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523650PE.NFO.csv
+2025-10-27 10:08:34,586 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,586 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523700PE.NFO.csv
+2025-10-27 10:08:34,644 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,645 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523750PE.NFO.csv
+2025-10-27 10:08:34,766 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,766 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523800PE.NFO.csv
+2025-10-27 10:08:34,850 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,851 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523850PE.NFO.csv
+2025-10-27 10:08:34,921 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,922 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523900PE.NFO.csv
+2025-10-27 10:08:34,990 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:34,990 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523950PE.NFO.csv
+2025-10-27 10:08:35,040 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,040 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524000PE.NFO.csv
+2025-10-27 10:08:35,104 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,104 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524050PE.NFO.csv
+2025-10-27 10:08:35,147 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,147 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524100PE.NFO.csv
+2025-10-27 10:08:35,192 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,193 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524150PE.NFO.csv
+2025-10-27 10:08:35,229 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,230 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524200PE.NFO.csv
+2025-10-27 10:08:35,268 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,268 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524250PE.NFO.csv
+2025-10-27 10:08:35,303 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,303 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524300PE.NFO.csv
+2025-10-27 10:08:35,331 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,331 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524350PE.NFO.csv
+2025-10-27 10:08:35,366 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,366 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524400PE.NFO.csv
+2025-10-27 10:08:35,389 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,389 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524450PE.NFO.csv
+2025-10-27 10:08:35,415 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,415 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524500PE.NFO.csv
+2025-10-27 10:08:35,434 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,434 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524550PE.NFO.csv
+2025-10-27 10:08:35,462 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,463 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524600PE.NFO.csv
+2025-10-27 10:08:35,480 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,480 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524650PE.NFO.csv
+2025-10-27 10:08:35,508 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,509 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524700PE.NFO.csv
+2025-10-27 10:08:35,522 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,523 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524750PE.NFO.csv
+2025-10-27 10:08:35,546 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,547 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524800PE.NFO.csv
+2025-10-27 10:08:35,565 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,565 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524850PE.NFO.csv
+2025-10-27 10:08:35,584 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,584 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524900PE.NFO.csv
+2025-10-27 10:08:35,597 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,597 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524950PE.NFO.csv
+2025-10-27 10:08:35,610 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,610 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525000PE.NFO.csv
+2025-10-27 10:08:35,622 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\finnifty_put_03012025.csv
+2025-10-27 10:08:35,622 [INFO] [root] [MainThread]: Utility stopped.

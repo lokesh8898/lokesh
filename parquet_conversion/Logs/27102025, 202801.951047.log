@@ -1,0 +1,10 @@
+2025-10-27 20:28:01,952 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 20:28:01,952 [INFO] [root] [MainThread]: Processing MIDCPNIFTY from NFO exchange
+2025-10-27 20:28:01,953 [INFO] [root] [MainThread]: Detected yearly folder structure in NFO\GFDLNFO_TICK_03012025
+2025-10-27 20:28:02,490 [INFO] [root] [MainThread]: No date subfolders found, extracted date 03012025 from parent folder: GFDLNFO_TICK_03012025
+2025-10-27 20:28:02,491 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'NFO\\GFDLNFO_TICK_03012025'}} for processing {'index': 'MIDCPNIFTY', 'instrument_type': 'future'}.
+2025-10-27 20:28:02,502 [INFO] [root] [MainThread]: Started processing folder: NFO\GFDLNFO_TICK_03012025 for {'index': 'MIDCPNIFTY', 'instrument_type': 'future'}, date: 03012025
+2025-10-27 20:28:02,503 [INFO] [root] [MainThread]: Started processing: NFO\GFDLNFO_TICK_03012025\Futures\-I\MIDCPNIFTY-I.NFO.csv
+2025-10-27 20:28:02,595 [INFO] [root] [MainThread]: Successfully processed: NFO\GFDLNFO_TICK_03012025\Futures\-I\MIDCPNIFTY-I.NFO.csv
+2025-10-27 20:28:02,644 [INFO] [root] [MainThread]: Saved 1 future files to ProcessedParquet\midcpnifty_future_03012025.parquet (2169 rows)
+2025-10-27 20:28:02,644 [INFO] [root] [MainThread]: Utility stopped.

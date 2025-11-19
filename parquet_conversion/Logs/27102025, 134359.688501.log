@@ -1,0 +1,6 @@
+2025-10-27 13:43:59,689 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:43:59,689 [INFO] [root] [MainThread]: Processing FINNIFTY from NFO exchange
+2025-10-27 13:43:59,690 [INFO] [root] [MainThread]: Detected yearly folder structure in NFO\GFDLNFO_TICK_03012025\GFDLNFO_TICK_03012025
+2025-10-27 13:44:00,467 [INFO] [root] [MainThread]: Found 0 unique dates in NFO\GFDLNFO_TICK_03012025\GFDLNFO_TICK_03012025
+2025-10-27 13:44:00,468 [INFO] [root] [MainThread]: Got following folder info {} for processing {'index': 'FINNIFTY', 'instrument_type': 'call'}.
+2025-10-27 13:44:00,468 [INFO] [root] [MainThread]: Utility stopped.

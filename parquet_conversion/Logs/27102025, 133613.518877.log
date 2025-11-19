@@ -1,0 +1,7 @@
+2025-10-27 13:36:13,519 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:36:13,519 [INFO] [root] [MainThread]: Processing FINNIFTY from NFO exchange
+2025-10-27 13:36:13,520 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025 for exchange NFO
+2025-10-27 13:36:13,520 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'FINNIFTY', 'instrument_type': 'future'}.
+2025-10-27 13:36:13,520 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'FINNIFTY', 'instrument_type': 'future'}, date: 03012025
+2025-10-27 13:36:13,521 [INFO] [root] [MainThread]: FINNIFTY, Unable to find future file. Hence, can't process data.
+2025-10-27 13:36:13,521 [INFO] [root] [MainThread]: Utility stopped.

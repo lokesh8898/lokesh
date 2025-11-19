@@ -1,0 +1,2 @@
+2025-10-27 10:59:53,142 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 10:59:53,143 [INFO] [root] [MainThread]: Command line parameters are not passed properly. Usage: python prepareTickByTickData_Parquet.py <INDEX> <instrument_type>
