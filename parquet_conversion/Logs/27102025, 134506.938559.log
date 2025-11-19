@@ -1,0 +1,6 @@
+2025-10-27 13:45:06,940 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:45:06,941 [INFO] [root] [MainThread]: Processing MIDCPNIFTY from NFO exchange
+2025-10-27 13:45:06,942 [INFO] [root] [MainThread]: Detected yearly folder structure in NFO\GFDLNFO_TICK_03012025\GFDLNFO_TICK_03012025
+2025-10-27 13:45:07,807 [INFO] [root] [MainThread]: Found 0 unique dates in NFO\GFDLNFO_TICK_03012025\GFDLNFO_TICK_03012025
+2025-10-27 13:45:07,807 [INFO] [root] [MainThread]: Got following folder info {} for processing {'index': 'MIDCPNIFTY', 'instrument_type': 'future'}.
+2025-10-27 13:45:07,807 [INFO] [root] [MainThread]: Utility stopped.

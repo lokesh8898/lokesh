@@ -1,0 +1,2037 @@
+2025-10-27 10:51:40,600 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 10:51:40,601 [INFO] [root] [MainThread]: Processing NIFTY from NFO exchange
+2025-10-27 10:51:40,602 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025 for exchange NFO
+2025-10-27 10:51:40,602 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'NIFTY', 'instrument_type': 'call'}.
+2025-10-27 10:51:40,613 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'NIFTY', 'instrument_type': 'call'}
+2025-10-27 10:51:40,749 [INFO] [root] [MainThread]: Found 425 call option files to process for NIFTY.
+2025-10-27 10:51:40,750 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2523950CE.NFO.csv
+2025-10-27 10:51:43,269 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 10:51:43,319 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524000CE.NFO.csv
+2025-10-27 10:51:43,718 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524000CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:43,719 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524100CE.NFO.csv
+2025-10-27 10:51:44,107 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524100CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:44,109 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524200CE.NFO.csv
+2025-10-27 10:51:44,486 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524200CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:44,487 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524350CE.NFO.csv
+2025-10-27 10:51:44,775 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524350CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:44,777 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524500CE.NFO.csv
+2025-10-27 10:51:44,953 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524500CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:44,955 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524700CE.NFO.csv
+2025-10-27 10:51:45,128 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524700CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:45,129 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524800CE.NFO.csv
+2025-10-27 10:51:45,331 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524800CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:45,331 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2525000CE.NFO.csv
+2025-10-27 10:51:45,496 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY06FEB2525000CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:45,497 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2525500CE.NFO.csv
+2025-10-27 10:51:45,646 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY06FEB2525500CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:45,647 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2525700CE.NFO.csv
+2025-10-27 10:51:45,775 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY06FEB2525700CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:45,776 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2521850CE.NFO.csv
+2025-10-27 10:51:46,009 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2521850CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:46,010 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522000CE.NFO.csv
+2025-10-27 10:51:46,542 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522000CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:46,543 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522400CE.NFO.csv
+2025-10-27 10:51:47,302 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522400CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:47,302 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522500CE.NFO.csv
+2025-10-27 10:51:48,172 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522500CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:48,173 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522600CE.NFO.csv
+2025-10-27 10:51:48,993 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522600CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:48,994 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522700CE.NFO.csv
+2025-10-27 10:51:49,559 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522700CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:49,560 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522750CE.NFO.csv
+2025-10-27 10:51:50,186 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522750CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:50,187 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522800CE.NFO.csv
+2025-10-27 10:51:51,037 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522800CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:51,038 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522850CE.NFO.csv
+2025-10-27 10:51:51,575 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522850CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:51,576 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522900CE.NFO.csv
+2025-10-27 10:51:52,008 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522900CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:52,008 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523000CE.NFO.csv
+2025-10-27 10:51:52,320 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523000CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:52,322 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523100CE.NFO.csv
+2025-10-27 10:51:52,698 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523100CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:52,699 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523150CE.NFO.csv
+2025-10-27 10:51:53,329 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523150CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:53,332 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523200CE.NFO.csv
+2025-10-27 10:51:53,959 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523200CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:53,959 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523250CE.NFO.csv
+2025-10-27 10:51:54,585 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523250CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:54,588 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523300CE.NFO.csv
+2025-10-27 10:51:55,192 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523300CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:55,193 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523350CE.NFO.csv
+2025-10-27 10:51:55,619 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523350CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:55,620 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523400CE.NFO.csv
+2025-10-27 10:51:55,986 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523400CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:55,987 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523450CE.NFO.csv
+2025-10-27 10:51:56,373 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523450CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:56,375 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523500CE.NFO.csv
+2025-10-27 10:51:56,922 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523500CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:56,924 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523550CE.NFO.csv
+2025-10-27 10:51:57,522 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523550CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:57,523 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523600CE.NFO.csv
+2025-10-27 10:51:58,318 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523600CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:58,319 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523650CE.NFO.csv
+2025-10-27 10:51:59,097 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523650CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:59,098 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523700CE.NFO.csv
+2025-10-27 10:51:59,747 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523700CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:51:59,758 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523750CE.NFO.csv
+2025-10-27 10:52:00,529 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523750CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:00,530 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523800CE.NFO.csv
+2025-10-27 10:52:02,013 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523800CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:02,016 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523850CE.NFO.csv
+2025-10-27 10:52:02,879 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523850CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:02,882 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523900CE.NFO.csv
+2025-10-27 10:52:04,143 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523900CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:04,145 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523950CE.NFO.csv
+2025-10-27 10:52:05,922 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523950CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:05,925 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524000CE.NFO.csv
+2025-10-27 10:52:07,096 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524000CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:07,097 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524050CE.NFO.csv
+2025-10-27 10:52:08,225 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524050CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:08,230 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524100CE.NFO.csv
+2025-10-27 10:52:09,496 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524100CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:09,498 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524150CE.NFO.csv
+2025-10-27 10:52:10,593 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524150CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:10,595 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524200CE.NFO.csv
+2025-10-27 10:52:11,610 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524200CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:11,611 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524250CE.NFO.csv
+2025-10-27 10:52:12,780 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524250CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:12,783 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524300CE.NFO.csv
+2025-10-27 10:52:13,919 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524300CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:13,921 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524350CE.NFO.csv
+2025-10-27 10:52:14,948 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524350CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:14,952 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524400CE.NFO.csv
+2025-10-27 10:52:16,121 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524400CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:16,123 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524450CE.NFO.csv
+2025-10-27 10:52:17,214 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524450CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:17,219 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524500CE.NFO.csv
+2025-10-27 10:52:17,990 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524500CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:17,995 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524550CE.NFO.csv
+2025-10-27 10:52:18,705 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524550CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:18,707 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524600CE.NFO.csv
+2025-10-27 10:52:19,730 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524600CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:19,732 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524650CE.NFO.csv
+2025-10-27 10:52:20,823 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524650CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:20,827 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524700CE.NFO.csv
+2025-10-27 10:52:21,612 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524700CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:21,613 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524750CE.NFO.csv
+2025-10-27 10:52:22,400 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524750CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:22,404 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524800CE.NFO.csv
+2025-10-27 10:52:23,402 [ERROR] [root] [MainThread]: Error processing GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524800CE.NFO.csv: Traceback (most recent call last):
+  File "C:\parquet_conversion\prepareTickByTickData_Parquet.py", line 140, in getFinalDatasetToPush
+    existing_df = pd.read_parquet(outputFilePath)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 669, in read_parquet
+    return impl.read(
+           ~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parquet.py", line 265, in read
+    pa_table = self.api.parquet.read_table(
+        path_or_handle,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1824, in read_table
+    return dataset.read(columns=columns, use_threads=use_threads,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        use_pandas_metadata=use_pandas_metadata)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyarrow\parquet\core.py", line 1475, in read
+    table = self._dataset.to_table(
+        columns=columns, filter=self._filter_expression,
+        use_threads=use_threads
+    )
+  File "pyarrow\\_dataset.pyx", line 589, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow\\_dataset.pyx", line 3941, in pyarrow._dataset.Scanner.to_table
+  File "pyarrow\\error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: Column cannot have more than one dictionary.
+
+2025-10-27 10:52:23,407 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524850CE.NFO.csv
+2025-10-27 10:52:23,972 [INFO] [root] [MainThread]: An uncaught exception occurred: <class 'KeyboardInterrupt'>, , <traceback object at 0x000001D19225D840>
+2025-10-27 10:52:24,719 [INFO] [root] [MainThread]: '  File "C:\\parquet_conversion\\prepareTickByTickData_Parquet.py", line 288, in <module>\n    getFinalDatasetToPush(\n    ~~~~~~~~~~~~~~~~~~~~~^\n        dataFilePath=os.path.join(folderpath, symbolFile),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<8 lines>...\n        isFutureDataFile=False\n        ^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n'
+2025-10-27 10:52:24,719 [INFO] [root] [MainThread]: '  File "C:\\parquet_conversion\\prepareTickByTickData_Parquet.py", line 111, in getFinalDatasetToPush\n    optDataset[\'toKeep\'] = time_parsed.apply(lambda x: config.MARKET_TIMINGS[exchange][\'start\'] <= x.time() <= config.MARKET_TIMINGS[exchange][\'end\'])\n                           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'
+2025-10-27 10:52:24,719 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\core\\series.py", line 4943, in apply\n    ).apply()\n      ~~~~~^^\n'
+2025-10-27 10:52:24,720 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\core\\apply.py", line 1422, in apply\n    return self.apply_standard()\n           ~~~~~~~~~~~~~~~~~~~^^\n'
+2025-10-27 10:52:24,720 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\core\\apply.py", line 1502, in apply_standard\n    mapped = obj._map_values(\n        mapper=curried, na_action=action, convert=self.convert_dtype\n    )\n'
+2025-10-27 10:52:24,720 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\core\\base.py", line 923, in _map_values\n    return arr.map(mapper, na_action=na_action)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'
+2025-10-27 10:52:24,720 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\core\\arrays\\_mixins.py", line 81, in method\n    return meth(self, *args, **kwargs)\n'
+2025-10-27 10:52:24,721 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py", line 763, in map\n    result = map_array(self, mapper, na_action=na_action)\n'
+2025-10-27 10:52:24,722 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\core\\algorithms.py", line 1741, in map_array\n    values = arr.astype(object, copy=False)\n'
+2025-10-27 10:52:24,723 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\core\\arrays\\datetimes.py", line 741, in astype\n    return dtl.DatetimeLikeArrayMixin.astype(self, dtype, copy)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n'
+2025-10-27 10:52:24,724 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py", line 477, in astype\n    converted = ints_to_pydatetime(\n        i8data,\n    ...<2 lines>...\n        reso=self._creso,\n    )\n'

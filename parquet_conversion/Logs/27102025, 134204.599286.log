@@ -1,0 +1,7 @@
+2025-10-27 13:42:04,600 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:42:04,600 [INFO] [root] [MainThread]: Processing BANKNIFTY from NFO exchange
+2025-10-27 13:42:04,601 [INFO] [root] [MainThread]: Found dated subfolder: GFDLNFO_TICK_03012025 -> date: 03012025
+2025-10-27 13:42:04,601 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'NFO\\GFDLNFO_TICK_03012025'}} for processing {'index': 'BANKNIFTY', 'instrument_type': 'future'}.
+2025-10-27 13:42:04,603 [INFO] [root] [MainThread]: Started processing folder: NFO\GFDLNFO_TICK_03012025 for {'index': 'BANKNIFTY', 'instrument_type': 'future'}, date: 03012025
+2025-10-27 13:42:04,604 [INFO] [root] [MainThread]: BANKNIFTY, Unable to find future file. Hence, can't process data.
+2025-10-27 13:42:04,604 [INFO] [root] [MainThread]: Utility stopped.

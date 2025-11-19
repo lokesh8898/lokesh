@@ -1,0 +1,7 @@
+2025-10-27 13:42:10,261 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:42:10,262 [INFO] [root] [MainThread]: Processing SENSEX from BFO exchange
+2025-10-27 13:42:10,263 [INFO] [root] [MainThread]: Found dated subfolder: BFO_TICK_03012025 -> date: 03012025
+2025-10-27 13:42:10,263 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'BFO\\BFO_TICK_03012025'}} for processing {'index': 'SENSEX', 'instrument_type': 'future'}.
+2025-10-27 13:42:10,264 [INFO] [root] [MainThread]: Started processing folder: BFO\BFO_TICK_03012025 for {'index': 'SENSEX', 'instrument_type': 'future'}, date: 03012025
+2025-10-27 13:42:10,275 [INFO] [root] [MainThread]: SENSEX, Unable to find future file. Hence, can't process data.
+2025-10-27 13:42:10,275 [INFO] [root] [MainThread]: Utility stopped.

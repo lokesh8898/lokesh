@@ -1,0 +1,7 @@
+2025-10-27 13:36:07,287 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:36:07,289 [INFO] [root] [MainThread]: Processing FINNIFTY from NFO exchange
+2025-10-27 13:36:07,291 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025 for exchange NFO
+2025-10-27 13:36:07,291 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'FINNIFTY', 'instrument_type': 'put'}.
+2025-10-27 13:36:07,293 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'FINNIFTY', 'instrument_type': 'put'}, date: 03012025
+2025-10-27 13:36:07,303 [INFO] [root] [MainThread]: Found 0 put option files to process for FINNIFTY.
+2025-10-27 13:36:07,304 [INFO] [root] [MainThread]: Utility stopped.

@@ -1,0 +1,7 @@
+2025-10-27 10:14:23,938 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 10:14:23,939 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025
+2025-10-27 10:14:23,939 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'NIFTY', 'instrument_type': 'future'}.
+2025-10-27 10:14:23,939 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'NIFTY', 'instrument_type': 'future'}
+2025-10-27 10:14:23,940 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Futures\-I\NIFTY-I.NFO.csv
+2025-10-27 10:14:24,078 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_future_03012025.parquet
+2025-10-27 10:14:24,079 [INFO] [root] [MainThread]: Utility stopped.

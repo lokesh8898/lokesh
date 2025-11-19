@@ -1,0 +1,347 @@
+2025-10-27 11:00:17,066 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 11:00:17,066 [INFO] [root] [MainThread]: Processing NIFTY from NFO exchange
+2025-10-27 11:00:17,067 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025 for exchange NFO
+2025-10-27 11:00:17,067 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'NIFTY', 'instrument_type': 'call'}.
+2025-10-27 11:00:17,068 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'NIFTY', 'instrument_type': 'call'}
+2025-10-27 11:00:17,125 [INFO] [root] [MainThread]: Found 425 call option files to process for NIFTY.
+2025-10-27 11:00:17,125 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2523950CE.NFO.csv
+2025-10-27 11:00:17,215 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:17,216 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524000CE.NFO.csv
+2025-10-27 11:00:17,367 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:17,367 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524100CE.NFO.csv
+2025-10-27 11:00:17,475 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:17,476 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524200CE.NFO.csv
+2025-10-27 11:00:17,667 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:17,668 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524350CE.NFO.csv
+2025-10-27 11:00:18,102 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:18,103 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524500CE.NFO.csv
+2025-10-27 11:00:18,214 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:18,215 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524700CE.NFO.csv
+2025-10-27 11:00:18,335 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:18,335 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524800CE.NFO.csv
+2025-10-27 11:00:18,500 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:18,501 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2525000CE.NFO.csv
+2025-10-27 11:00:18,680 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:18,681 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2525500CE.NFO.csv
+2025-10-27 11:00:18,835 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:18,836 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2525700CE.NFO.csv
+2025-10-27 11:00:18,957 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:18,957 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2521850CE.NFO.csv
+2025-10-27 11:00:19,112 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:19,112 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522000CE.NFO.csv
+2025-10-27 11:00:19,269 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:19,270 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522400CE.NFO.csv
+2025-10-27 11:00:19,427 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:19,427 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522500CE.NFO.csv
+2025-10-27 11:00:19,571 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:19,572 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522600CE.NFO.csv
+2025-10-27 11:00:19,679 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:19,679 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522700CE.NFO.csv
+2025-10-27 11:00:19,801 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:19,801 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522750CE.NFO.csv
+2025-10-27 11:00:19,883 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:19,883 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522800CE.NFO.csv
+2025-10-27 11:00:19,988 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:19,988 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522850CE.NFO.csv
+2025-10-27 11:00:20,109 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:20,110 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522900CE.NFO.csv
+2025-10-27 11:00:20,215 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:20,216 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523000CE.NFO.csv
+2025-10-27 11:00:20,335 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:20,336 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523100CE.NFO.csv
+2025-10-27 11:00:20,454 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:20,454 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523150CE.NFO.csv
+2025-10-27 11:00:20,556 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:20,556 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523200CE.NFO.csv
+2025-10-27 11:00:20,658 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:20,658 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523250CE.NFO.csv
+2025-10-27 11:00:20,769 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:20,769 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523300CE.NFO.csv
+2025-10-27 11:00:20,893 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:20,894 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523350CE.NFO.csv
+2025-10-27 11:00:21,007 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:21,008 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523400CE.NFO.csv
+2025-10-27 11:00:21,126 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:21,126 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523450CE.NFO.csv
+2025-10-27 11:00:21,242 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:21,242 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523500CE.NFO.csv
+2025-10-27 11:00:21,462 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:21,464 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523550CE.NFO.csv
+2025-10-27 11:00:21,722 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:21,723 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523600CE.NFO.csv
+2025-10-27 11:00:21,992 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:21,995 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523650CE.NFO.csv
+2025-10-27 11:00:22,253 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:22,254 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523700CE.NFO.csv
+2025-10-27 11:00:22,546 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:22,548 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523750CE.NFO.csv
+2025-10-27 11:00:22,812 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:22,815 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523800CE.NFO.csv
+2025-10-27 11:00:23,319 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:23,322 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523850CE.NFO.csv
+2025-10-27 11:00:23,747 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:23,754 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523900CE.NFO.csv
+2025-10-27 11:00:24,156 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:24,159 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523950CE.NFO.csv
+2025-10-27 11:00:24,522 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:24,527 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524000CE.NFO.csv
+2025-10-27 11:00:24,948 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:24,956 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524050CE.NFO.csv
+2025-10-27 11:00:25,512 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:25,523 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524100CE.NFO.csv
+2025-10-27 11:00:26,361 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:26,371 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524150CE.NFO.csv
+2025-10-27 11:00:27,321 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:27,334 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524200CE.NFO.csv
+2025-10-27 11:00:28,051 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:28,062 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524250CE.NFO.csv
+2025-10-27 11:00:28,735 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:28,744 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524300CE.NFO.csv
+2025-10-27 11:00:29,412 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:29,425 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524350CE.NFO.csv
+2025-10-27 11:00:30,566 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:30,589 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524400CE.NFO.csv
+2025-10-27 11:00:31,878 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:31,894 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524450CE.NFO.csv
+2025-10-27 11:00:32,670 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:32,680 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524500CE.NFO.csv
+2025-10-27 11:00:33,492 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:33,513 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524550CE.NFO.csv
+2025-10-27 11:00:34,707 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:34,728 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524600CE.NFO.csv
+2025-10-27 11:00:35,896 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:35,910 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524650CE.NFO.csv
+2025-10-27 11:00:36,878 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:36,893 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524700CE.NFO.csv
+2025-10-27 11:00:37,683 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:37,709 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524750CE.NFO.csv
+2025-10-27 11:00:38,813 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:38,835 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524800CE.NFO.csv
+2025-10-27 11:00:39,937 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:39,954 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524850CE.NFO.csv
+2025-10-27 11:00:40,784 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:40,801 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524900CE.NFO.csv
+2025-10-27 11:00:41,653 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:41,676 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524950CE.NFO.csv
+2025-10-27 11:00:42,902 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:42,928 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525000CE.NFO.csv
+2025-10-27 11:00:44,557 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:44,579 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525050CE.NFO.csv
+2025-10-27 11:00:45,667 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:45,701 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525100CE.NFO.csv
+2025-10-27 11:00:47,323 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:47,357 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525150CE.NFO.csv
+2025-10-27 11:00:48,585 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:48,609 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525200CE.NFO.csv
+2025-10-27 11:00:49,761 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:49,793 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525250CE.NFO.csv
+2025-10-27 11:00:51,304 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:51,335 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525300CE.NFO.csv
+2025-10-27 11:00:52,536 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:52,557 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525350CE.NFO.csv
+2025-10-27 11:00:53,577 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:53,598 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525400CE.NFO.csv
+2025-10-27 11:00:54,769 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:54,801 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525450CE.NFO.csv
+2025-10-27 11:00:56,018 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:56,039 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525500CE.NFO.csv
+2025-10-27 11:00:56,934 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:56,957 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525550CE.NFO.csv
+2025-10-27 11:00:57,791 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:57,818 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525600CE.NFO.csv
+2025-10-27 11:00:59,410 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:00:59,459 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525650CE.NFO.csv
+2025-10-27 11:01:01,049 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:01,080 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525700CE.NFO.csv
+2025-10-27 11:01:02,586 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:02,666 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525750CE.NFO.csv
+2025-10-27 11:01:05,241 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:05,284 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525800CE.NFO.csv
+2025-10-27 11:01:07,680 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:07,733 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525850CE.NFO.csv
+2025-10-27 11:01:09,432 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:09,465 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525900CE.NFO.csv
+2025-10-27 11:01:11,820 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:11,914 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525950CE.NFO.csv
+2025-10-27 11:01:13,396 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:13,431 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526000CE.NFO.csv
+2025-10-27 11:01:15,632 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:15,719 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526050CE.NFO.csv
+2025-10-27 11:01:17,524 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:17,554 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526100CE.NFO.csv
+2025-10-27 11:01:19,889 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:19,948 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526150CE.NFO.csv
+2025-10-27 11:01:21,402 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:21,437 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526200CE.NFO.csv
+2025-10-27 11:01:23,329 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:23,370 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526250CE.NFO.csv
+2025-10-27 11:01:25,295 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:25,334 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526300CE.NFO.csv
+2025-10-27 11:01:27,429 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:27,468 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526350CE.NFO.csv
+2025-10-27 11:01:29,084 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:29,111 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526400CE.NFO.csv
+2025-10-27 11:01:30,778 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:30,856 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526450CE.NFO.csv
+2025-10-27 11:01:32,869 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:32,907 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526500CE.NFO.csv
+2025-10-27 11:01:35,400 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:35,463 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2522000CE.NFO.csv
+2025-10-27 11:01:37,226 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:37,258 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2522500CE.NFO.csv
+2025-10-27 11:01:39,098 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:39,144 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523000CE.NFO.csv
+2025-10-27 11:01:40,870 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:40,900 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523100CE.NFO.csv
+2025-10-27 11:01:42,322 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:42,364 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523200CE.NFO.csv
+2025-10-27 11:01:44,465 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:44,494 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523250CE.NFO.csv
+2025-10-27 11:01:45,648 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:45,683 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523300CE.NFO.csv
+2025-10-27 11:01:47,511 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:47,550 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523350CE.NFO.csv
+2025-10-27 11:01:49,374 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:49,430 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523400CE.NFO.csv
+2025-10-27 11:01:52,314 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:52,345 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523450CE.NFO.csv
+2025-10-27 11:01:53,626 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:53,646 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523500CE.NFO.csv
+2025-10-27 11:01:55,027 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:55,066 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523550CE.NFO.csv
+2025-10-27 11:01:56,431 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:56,456 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523600CE.NFO.csv
+2025-10-27 11:01:57,431 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:57,453 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523650CE.NFO.csv
+2025-10-27 11:01:58,745 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:01:58,818 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523700CE.NFO.csv
+2025-10-27 11:02:00,291 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:00,317 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523750CE.NFO.csv
+2025-10-27 11:02:01,287 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:01,313 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523800CE.NFO.csv
+2025-10-27 11:02:02,428 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:02,461 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523850CE.NFO.csv
+2025-10-27 11:02:04,400 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:04,426 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523900CE.NFO.csv
+2025-10-27 11:02:06,999 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:07,041 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523950CE.NFO.csv
+2025-10-27 11:02:09,674 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:09,830 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524000CE.NFO.csv
+2025-10-27 11:02:12,445 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:12,499 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524050CE.NFO.csv
+2025-10-27 11:02:14,856 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:14,902 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524100CE.NFO.csv
+2025-10-27 11:02:16,901 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:16,937 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524150CE.NFO.csv
+2025-10-27 11:02:20,276 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:20,322 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524200CE.NFO.csv
+2025-10-27 11:02:22,018 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:22,054 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524250CE.NFO.csv
+2025-10-27 11:02:24,233 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:24,283 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524300CE.NFO.csv
+2025-10-27 11:02:25,545 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:25,572 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524350CE.NFO.csv
+2025-10-27 11:02:26,833 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:26,866 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524400CE.NFO.csv
+2025-10-27 11:02:28,622 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:28,645 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524450CE.NFO.csv
+2025-10-27 11:02:29,789 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:29,816 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524500CE.NFO.csv
+2025-10-27 11:02:31,462 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:31,519 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524550CE.NFO.csv
+2025-10-27 11:02:33,145 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:33,170 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524600CE.NFO.csv
+2025-10-27 11:02:36,304 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:36,441 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524650CE.NFO.csv
+2025-10-27 11:02:39,226 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:39,345 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524700CE.NFO.csv
+2025-10-27 11:02:41,629 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:41,659 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524750CE.NFO.csv
+2025-10-27 11:02:44,407 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:44,454 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524800CE.NFO.csv
+2025-10-27 11:02:46,489 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:46,525 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524850CE.NFO.csv
+2025-10-27 11:02:51,823 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:51,948 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524900CE.NFO.csv
+2025-10-27 11:02:56,316 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:56,373 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524950CE.NFO.csv
+2025-10-27 11:02:58,584 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:02:58,666 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525000CE.NFO.csv
+2025-10-27 11:03:01,273 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:01,326 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525050CE.NFO.csv
+2025-10-27 11:03:04,843 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:04,945 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525100CE.NFO.csv
+2025-10-27 11:03:07,571 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:07,667 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525150CE.NFO.csv
+2025-10-27 11:03:11,409 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:11,582 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525200CE.NFO.csv
+2025-10-27 11:03:15,622 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:15,737 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525250CE.NFO.csv
+2025-10-27 11:03:19,709 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:19,995 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525300CE.NFO.csv
+2025-10-27 11:03:23,697 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:23,810 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525350CE.NFO.csv
+2025-10-27 11:03:27,567 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:27,684 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525400CE.NFO.csv
+2025-10-27 11:03:31,828 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:32,000 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525450CE.NFO.csv
+2025-10-27 11:03:34,918 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:34,999 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525500CE.NFO.csv
+2025-10-27 11:03:38,560 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:38,665 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525550CE.NFO.csv
+2025-10-27 11:03:42,454 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:42,566 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525600CE.NFO.csv
+2025-10-27 11:03:45,829 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:45,883 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525650CE.NFO.csv
+2025-10-27 11:03:49,279 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:49,336 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525700CE.NFO.csv
+2025-10-27 11:03:52,869 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:52,950 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525750CE.NFO.csv
+2025-10-27 11:03:56,577 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:56,678 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525800CE.NFO.csv
+2025-10-27 11:03:59,529 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:03:59,701 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525850CE.NFO.csv
+2025-10-27 11:04:04,112 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:04,308 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525900CE.NFO.csv
+2025-10-27 11:04:07,286 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:07,346 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525950CE.NFO.csv
+2025-10-27 11:04:09,573 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:09,641 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526000CE.NFO.csv
+2025-10-27 11:04:13,449 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:13,520 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526050CE.NFO.csv
+2025-10-27 11:04:16,695 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:16,773 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526100CE.NFO.csv
+2025-10-27 11:04:20,492 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:20,628 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526150CE.NFO.csv
+2025-10-27 11:04:24,373 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:24,450 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526200CE.NFO.csv
+2025-10-27 11:04:28,619 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:28,707 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526250CE.NFO.csv
+2025-10-27 11:04:32,082 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:32,151 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526300CE.NFO.csv
+2025-10-27 11:04:36,378 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:36,566 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526350CE.NFO.csv
+2025-10-27 11:04:40,426 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:40,484 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526400CE.NFO.csv
+2025-10-27 11:04:44,252 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:44,348 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526450CE.NFO.csv
+2025-10-27 11:04:48,119 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:48,174 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526500CE.NFO.csv
+2025-10-27 11:04:51,551 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:51,638 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2523500CE.NFO.csv
+2025-10-27 11:04:55,522 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\nifty_call_03012025.parquet
+2025-10-27 11:04:55,597 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2523600CE.NFO.csv
+2025-10-27 11:04:57,066 [INFO] [root] [MainThread]: An uncaught exception occurred: <class 'KeyboardInterrupt'>, , <traceback object at 0x0000018C44592440>
+2025-10-27 11:04:57,322 [INFO] [root] [MainThread]: '  File "C:\\parquet_conversion\\prepareTickByTickData_Parquet.py", line 288, in <module>\n    # A more sophisticated parser would extract the date from the filename\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<10 lines>...\n        },\n    \n'
+2025-10-27 11:04:57,323 [INFO] [root] [MainThread]: '  File "C:\\parquet_conversion\\prepareTickByTickData_Parquet.py", line 142, in getFinalDatasetToPush\n    logging.error(f"Error processing {dataFilePath}: {traceback.format_exc()}")\n        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'
+2025-10-27 11:04:57,323 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\util\\_decorators.py", line 333, in wrapper\n    return func(*args, **kwargs)\n'
+2025-10-27 11:04:57,323 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\core\\frame.py", line 3124, in to_parquet\n    return to_parquet(\n        self,\n    ...<6 lines>...\n        **kwargs,\n    )\n'
+2025-10-27 11:04:57,324 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\io\\parquet.py", line 482, in to_parquet\n    impl.write(\n    ~~~~~~~~~~^\n        df,\n        ^^^\n    ...<6 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n'
+2025-10-27 11:04:57,324 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\io\\parquet.py", line 191, in write\n    table = self.api.Table.from_pandas(df, **from_pandas_kwargs)\n'
+2025-10-27 11:04:57,324 [INFO] [root] [MainThread]: '  File "pyarrow\\\\table.pxi", line 4793, in pyarrow.lib.Table.from_pandas\n'
+2025-10-27 11:04:57,324 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\pandas_compat.py", line 648, in dataframe_to_arrays\n    arrays.append(executor.submit(convert_column, c, f))\n                  ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n'
+2025-10-27 11:04:57,325 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py", line 180, in submit\n    self._adjust_thread_count()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\n'
+2025-10-27 11:04:57,325 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py", line 203, in _adjust_thread_count\n    t.start()\n    ~~~~~~~^^\n'
+2025-10-27 11:04:57,330 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\threading.py", line 979, in start\n    self._started.wait()  # Will set ident and native_id\n    ~~~~~~~~~~~~~~~~~~^^\n'
+2025-10-27 11:04:57,331 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\threading.py", line 659, in wait\n    signaled = self._cond.wait(timeout)\n'
+2025-10-27 11:04:57,331 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\threading.py", line 359, in wait\n    waiter.acquire()\n    ~~~~~~~~~~~~~~^^\n'

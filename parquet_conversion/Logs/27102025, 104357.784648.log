@@ -1,0 +1,214 @@
+2025-10-27 10:43:57,785 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 10:43:57,786 [INFO] [root] [MainThread]: Processing SENSEX from BFO exchange
+2025-10-27 10:43:57,787 [INFO] [root] [MainThread]: Found date 03012025 from folder name: BFO_TICK_03012025 for exchange BFO
+2025-10-27 10:43:57,787 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'BFO_TICK_03012025'}} for processing {'index': 'SENSEX', 'instrument_type': 'put'}.
+2025-10-27 10:43:57,795 [INFO] [root] [MainThread]: Started processing folder: BFO_TICK_03012025 for {'index': 'SENSEX', 'instrument_type': 'put'}
+2025-10-27 10:43:57,811 [INFO] [root] [MainThread]: Found 171 put option files to process for SENSEX.
+2025-10-27 10:43:57,813 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2573200PE.BFO.csv
+2025-10-27 10:43:58,067 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:43:58,068 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2573300PE.BFO.csv
+2025-10-27 10:43:58,263 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:43:58,264 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2573400PE.BFO.csv
+2025-10-27 10:43:58,384 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:43:58,385 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2573500PE.BFO.csv
+2025-10-27 10:43:58,553 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:43:58,554 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2573600PE.BFO.csv
+2025-10-27 10:43:58,686 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:43:58,687 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2573700PE.BFO.csv
+2025-10-27 10:43:58,835 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:43:58,836 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2573800PE.BFO.csv
+2025-10-27 10:43:58,955 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:43:58,956 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2573900PE.BFO.csv
+2025-10-27 10:43:59,064 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:43:59,064 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2574000PE.BFO.csv
+2025-10-27 10:43:59,252 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:43:59,253 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2574100PE.BFO.csv
+2025-10-27 10:43:59,409 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:43:59,412 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2574200PE.BFO.csv
+2025-10-27 10:43:59,638 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:43:59,640 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2574300PE.BFO.csv
+2025-10-27 10:43:59,911 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:43:59,914 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2574400PE.BFO.csv
+2025-10-27 10:44:00,193 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:00,196 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2574500PE.BFO.csv
+2025-10-27 10:44:00,464 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:00,467 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2574600PE.BFO.csv
+2025-10-27 10:44:00,733 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:00,735 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2574700PE.BFO.csv
+2025-10-27 10:44:01,003 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:01,004 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2574800PE.BFO.csv
+2025-10-27 10:44:01,219 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:01,221 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2574900PE.BFO.csv
+2025-10-27 10:44:01,421 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:01,427 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2575000PE.BFO.csv
+2025-10-27 10:44:01,635 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:01,637 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2575100PE.BFO.csv
+2025-10-27 10:44:01,805 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:01,813 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2575200PE.BFO.csv
+2025-10-27 10:44:02,032 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:02,033 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2575300PE.BFO.csv
+2025-10-27 10:44:02,348 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:02,351 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2575400PE.BFO.csv
+2025-10-27 10:44:02,602 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:02,607 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2575500PE.BFO.csv
+2025-10-27 10:44:02,933 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:02,935 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2575600PE.BFO.csv
+2025-10-27 10:44:03,370 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:03,380 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2575700PE.BFO.csv
+2025-10-27 10:44:03,835 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:03,848 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2575800PE.BFO.csv
+2025-10-27 10:44:04,296 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:04,298 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2575900PE.BFO.csv
+2025-10-27 10:44:04,579 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:04,581 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2576000PE.BFO.csv
+2025-10-27 10:44:05,094 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:05,098 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2576100PE.BFO.csv
+2025-10-27 10:44:05,484 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:05,494 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2576200PE.BFO.csv
+2025-10-27 10:44:05,848 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:05,855 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2576300PE.BFO.csv
+2025-10-27 10:44:06,512 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:06,517 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2576400PE.BFO.csv
+2025-10-27 10:44:07,004 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:07,009 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2576500PE.BFO.csv
+2025-10-27 10:44:07,299 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:07,303 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2576600PE.BFO.csv
+2025-10-27 10:44:07,565 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:07,570 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2576700PE.BFO.csv
+2025-10-27 10:44:07,844 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:07,848 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2576800PE.BFO.csv
+2025-10-27 10:44:08,232 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:08,239 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2576900PE.BFO.csv
+2025-10-27 10:44:08,622 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:08,627 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2577000PE.BFO.csv
+2025-10-27 10:44:09,089 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:09,094 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2577100PE.BFO.csv
+2025-10-27 10:44:09,478 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:09,488 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2577200PE.BFO.csv
+2025-10-27 10:44:09,897 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:09,905 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2577300PE.BFO.csv
+2025-10-27 10:44:10,320 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:10,326 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2577400PE.BFO.csv
+2025-10-27 10:44:10,718 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:10,726 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2577500PE.BFO.csv
+2025-10-27 10:44:11,256 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:11,265 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2577600PE.BFO.csv
+2025-10-27 10:44:11,686 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:11,693 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2577700PE.BFO.csv
+2025-10-27 10:44:12,110 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:12,120 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2577800PE.BFO.csv
+2025-10-27 10:44:12,587 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:12,595 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2577900PE.BFO.csv
+2025-10-27 10:44:13,131 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:13,141 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2578000PE.BFO.csv
+2025-10-27 10:44:13,785 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:13,793 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2578100PE.BFO.csv
+2025-10-27 10:44:14,360 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:14,370 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2578200PE.BFO.csv
+2025-10-27 10:44:14,942 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:14,954 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2578300PE.BFO.csv
+2025-10-27 10:44:15,510 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:15,522 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2578400PE.BFO.csv
+2025-10-27 10:44:16,169 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:16,181 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2578500PE.BFO.csv
+2025-10-27 10:44:16,863 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:16,875 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2578600PE.BFO.csv
+2025-10-27 10:44:17,602 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:17,617 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2578700PE.BFO.csv
+2025-10-27 10:44:18,335 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:18,351 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2578800PE.BFO.csv
+2025-10-27 10:44:19,121 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:19,141 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2578900PE.BFO.csv
+2025-10-27 10:44:19,961 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:19,975 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2579000PE.BFO.csv
+2025-10-27 10:44:20,795 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:20,810 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2579100PE.BFO.csv
+2025-10-27 10:44:21,651 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:21,667 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2579200PE.BFO.csv
+2025-10-27 10:44:22,493 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:22,510 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2579300PE.BFO.csv
+2025-10-27 10:44:23,484 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:23,507 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2579400PE.BFO.csv
+2025-10-27 10:44:24,491 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:24,509 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2579500PE.BFO.csv
+2025-10-27 10:44:25,460 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:25,481 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2579600PE.BFO.csv
+2025-10-27 10:44:26,387 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:26,406 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2579700PE.BFO.csv
+2025-10-27 10:44:27,380 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:27,410 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2579800PE.BFO.csv
+2025-10-27 10:44:28,480 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:28,503 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2579900PE.BFO.csv
+2025-10-27 10:44:29,484 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:29,503 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2580000PE.BFO.csv
+2025-10-27 10:44:30,452 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:30,477 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2580100PE.BFO.csv
+2025-10-27 10:44:31,536 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:31,565 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2580200PE.BFO.csv
+2025-10-27 10:44:32,649 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:32,674 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2580300PE.BFO.csv
+2025-10-27 10:44:33,645 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:33,666 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2580400PE.BFO.csv
+2025-10-27 10:44:34,559 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:34,584 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2580500PE.BFO.csv
+2025-10-27 10:44:35,586 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:35,617 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2580600PE.BFO.csv
+2025-10-27 10:44:36,664 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:36,688 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2580700PE.BFO.csv
+2025-10-27 10:44:37,633 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:37,654 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2580800PE.BFO.csv
+2025-10-27 10:44:38,493 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:38,515 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2580900PE.BFO.csv
+2025-10-27 10:44:39,422 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:39,446 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2581000PE.BFO.csv
+2025-10-27 10:44:40,519 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:40,546 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2581100PE.BFO.csv
+2025-10-27 10:44:41,494 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:41,519 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2581200PE.BFO.csv
+2025-10-27 10:44:42,370 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:42,396 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2581300PE.BFO.csv
+2025-10-27 10:44:43,303 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:43,330 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2581400PE.BFO.csv
+2025-10-27 10:44:44,378 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:44,405 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2581500PE.BFO.csv
+2025-10-27 10:44:45,357 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:45,381 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2581700PE.BFO.csv
+2025-10-27 10:44:46,246 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:46,271 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2581900PE.BFO.csv
+2025-10-27 10:44:47,175 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:47,200 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2582000PE.BFO.csv
+2025-10-27 10:44:48,472 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:48,501 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2582100PE.BFO.csv
+2025-10-27 10:44:49,734 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:49,760 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2583900PE.BFO.csv
+2025-10-27 10:44:50,864 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:50,892 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN2584000PE.BFO.csv
+2025-10-27 10:44:52,232 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:52,262 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX07JAN2574000PE.BFO.csv
+2025-10-27 10:44:53,380 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:53,404 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX07JAN2574100PE.BFO.csv
+2025-10-27 10:44:54,585 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:54,614 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX07JAN2574300PE.BFO.csv
+2025-10-27 10:44:55,594 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:55,617 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX07JAN2574500PE.BFO.csv
+2025-10-27 10:44:56,604 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:56,636 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX07JAN2574800PE.BFO.csv
+2025-10-27 10:44:57,714 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:57,737 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX07JAN2575000PE.BFO.csv
+2025-10-27 10:44:58,625 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:58,646 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX07JAN2575500PE.BFO.csv
+2025-10-27 10:44:59,443 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:44:59,467 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX07JAN2575800PE.BFO.csv
+2025-10-27 10:45:00,444 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:45:00,468 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX07JAN2575900PE.BFO.csv
+2025-10-27 10:45:01,564 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_put_03012025.parquet
+2025-10-27 10:45:01,589 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX07JAN2576000PE.BFO.csv
+2025-10-27 10:45:02,474 [INFO] [root] [MainThread]: An uncaught exception occurred: <class 'KeyboardInterrupt'>, , <traceback object at 0x000001FB1D0D95C0>
+2025-10-27 10:45:02,480 [INFO] [root] [MainThread]: '  File "C:\\parquet_conversion\\prepareTickByTickData_Parquet.py", line 288, in <module>\n    getFinalDatasetToPush(\n    ~~~~~~~~~~~~~~~~~~~~~^\n        dataFilePath=os.path.join(folderpath, symbolFile),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<8 lines>...\n        isFutureDataFile=False\n        ^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n'
+2025-10-27 10:45:02,480 [INFO] [root] [MainThread]: '  File "C:\\parquet_conversion\\prepareTickByTickData_Parquet.py", line 142, in getFinalDatasetToPush\n    combined_df.to_parquet(outputFilePath, index=False, engine=\'pyarrow\', compression=\'snappy\')\n    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'
+2025-10-27 10:45:02,480 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\util\\_decorators.py", line 333, in wrapper\n    return func(*args, **kwargs)\n'
+2025-10-27 10:45:02,480 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\core\\frame.py", line 3124, in to_parquet\n    return to_parquet(\n        self,\n    ...<6 lines>...\n        **kwargs,\n    )\n'
+2025-10-27 10:45:02,480 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\io\\parquet.py", line 482, in to_parquet\n    impl.write(\n    ~~~~~~~~~~^\n        df,\n        ^^^\n    ...<6 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n'
+2025-10-27 10:45:02,480 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\io\\parquet.py", line 229, in write\n    self.api.parquet.write_table(\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        table,\n        ^^^^^^\n    ...<3 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n'
+2025-10-27 10:45:02,480 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\parquet\\core.py", line 1909, in write_table\n    writer.write_table(table, row_group_size=row_group_size)\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'
+2025-10-27 10:45:02,480 [INFO] [root] [MainThread]: '  File "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\parquet\\core.py", line 1115, in write_table\n    self.writer.write_table(table, row_group_size=row_group_size)\n    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'

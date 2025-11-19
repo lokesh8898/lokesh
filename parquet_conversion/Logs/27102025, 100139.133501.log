@@ -1,0 +1,6 @@
+2025-10-27 10:01:39,134 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 10:01:39,134 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025
+2025-10-27 10:01:39,134 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'SENSEX', 'instrument_type': 'put'}.
+2025-10-27 10:01:39,135 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'SENSEX', 'instrument_type': 'put'}
+2025-10-27 10:01:39,160 [INFO] [root] [MainThread]: Found 0 put option files to process for SENSEX.
+2025-10-27 10:01:39,169 [INFO] [root] [MainThread]: Utility stopped.

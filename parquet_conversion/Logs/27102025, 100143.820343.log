@@ -1,0 +1,6 @@
+2025-10-27 10:01:43,820 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 10:01:43,821 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025
+2025-10-27 10:01:43,821 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'SENSEX', 'instrument_type': 'future'}.
+2025-10-27 10:01:43,821 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'SENSEX', 'instrument_type': 'future'}
+2025-10-27 10:01:43,822 [INFO] [root] [MainThread]: SENSEX, Unable to find future file. Hence, can't process data.
+2025-10-27 10:01:43,822 [INFO] [root] [MainThread]: Utility stopped.

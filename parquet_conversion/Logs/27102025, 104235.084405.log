@@ -1,0 +1,16 @@
+2025-10-27 10:42:35,085 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 10:42:35,086 [INFO] [root] [MainThread]: Processing SENSEX from BFO exchange
+2025-10-27 10:42:35,086 [INFO] [root] [MainThread]: Found date 03012025 from folder name: BFO_TICK_03012025 for exchange BFO
+2025-10-27 10:42:35,086 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'BFO_TICK_03012025'}} for processing {'index': 'SENSEX', 'instrument_type': 'future'}.
+2025-10-27 10:42:35,092 [INFO] [root] [MainThread]: Started processing folder: BFO_TICK_03012025 for {'index': 'SENSEX', 'instrument_type': 'future'}
+2025-10-27 10:42:35,106 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX03JAN25FUT.BFO.csv
+2025-10-27 10:42:35,296 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_future_03012025.parquet
+2025-10-27 10:42:35,296 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX07JAN25FUT.BFO.csv
+2025-10-27 10:42:35,514 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_future_03012025.parquet
+2025-10-27 10:42:35,515 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX14JAN25FUT.BFO.csv
+2025-10-27 10:42:35,634 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_future_03012025.parquet
+2025-10-27 10:42:35,634 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX25FEB25FUT.BFO.csv
+2025-10-27 10:42:36,147 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_future_03012025.parquet
+2025-10-27 10:42:36,148 [INFO] [root] [MainThread]: Started processing: BFO_TICK_03012025\SENSEX28JAN25FUT.BFO.csv
+2025-10-27 10:42:36,378 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\sensex_future_03012025.parquet
+2025-10-27 10:42:36,379 [INFO] [root] [MainThread]: Utility stopped.

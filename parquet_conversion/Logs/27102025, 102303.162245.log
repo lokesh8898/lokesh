@@ -1,0 +1,140 @@
+2025-10-27 10:23:03,162 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 10:23:03,163 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025
+2025-10-27 10:23:03,163 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'FINNIFTY', 'instrument_type': 'call'}.
+2025-10-27 10:23:03,163 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'FINNIFTY', 'instrument_type': 'call'}
+2025-10-27 10:23:03,192 [INFO] [root] [MainThread]: Found 67 call option files to process for FINNIFTY.
+2025-10-27 10:23:03,193 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY27FEB2526100CE.NFO.csv
+2025-10-27 10:23:03,230 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,230 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY27MAR2523000CE.NFO.csv
+2025-10-27 10:23:03,276 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,276 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY27MAR2524000CE.NFO.csv
+2025-10-27 10:23:03,300 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,300 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2522900CE.NFO.csv
+2025-10-27 10:23:03,330 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,330 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523000CE.NFO.csv
+2025-10-27 10:23:03,355 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,355 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523150CE.NFO.csv
+2025-10-27 10:23:03,392 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,392 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523200CE.NFO.csv
+2025-10-27 10:23:03,420 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,420 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523250CE.NFO.csv
+2025-10-27 10:23:03,455 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,456 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523300CE.NFO.csv
+2025-10-27 10:23:03,482 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,483 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523350CE.NFO.csv
+2025-10-27 10:23:03,519 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,520 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523400CE.NFO.csv
+2025-10-27 10:23:03,547 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,547 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523450CE.NFO.csv
+2025-10-27 10:23:03,590 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,590 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523500CE.NFO.csv
+2025-10-27 10:23:03,620 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,621 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523550CE.NFO.csv
+2025-10-27 10:23:03,662 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,663 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523600CE.NFO.csv
+2025-10-27 10:23:03,699 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,699 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523650CE.NFO.csv
+2025-10-27 10:23:03,743 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,743 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523700CE.NFO.csv
+2025-10-27 10:23:03,807 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,807 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523750CE.NFO.csv
+2025-10-27 10:23:03,862 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,862 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523800CE.NFO.csv
+2025-10-27 10:23:03,937 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:03,937 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523850CE.NFO.csv
+2025-10-27 10:23:04,006 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,007 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523900CE.NFO.csv
+2025-10-27 10:23:04,080 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,081 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2523950CE.NFO.csv
+2025-10-27 10:23:04,153 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,154 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524000CE.NFO.csv
+2025-10-27 10:23:04,246 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,247 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524050CE.NFO.csv
+2025-10-27 10:23:04,325 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,326 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524100CE.NFO.csv
+2025-10-27 10:23:04,407 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,409 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524150CE.NFO.csv
+2025-10-27 10:23:04,486 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,487 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524200CE.NFO.csv
+2025-10-27 10:23:04,587 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,588 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524250CE.NFO.csv
+2025-10-27 10:23:04,664 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,665 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524300CE.NFO.csv
+2025-10-27 10:23:04,746 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,748 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524350CE.NFO.csv
+2025-10-27 10:23:04,826 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,827 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524400CE.NFO.csv
+2025-10-27 10:23:04,900 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,901 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524450CE.NFO.csv
+2025-10-27 10:23:04,977 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:04,979 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524500CE.NFO.csv
+2025-10-27 10:23:05,068 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,069 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524550CE.NFO.csv
+2025-10-27 10:23:05,150 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,151 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524600CE.NFO.csv
+2025-10-27 10:23:05,219 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,221 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524650CE.NFO.csv
+2025-10-27 10:23:05,297 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,299 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524700CE.NFO.csv
+2025-10-27 10:23:05,365 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,366 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524750CE.NFO.csv
+2025-10-27 10:23:05,442 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,444 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524800CE.NFO.csv
+2025-10-27 10:23:05,513 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,514 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524850CE.NFO.csv
+2025-10-27 10:23:05,589 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,591 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524900CE.NFO.csv
+2025-10-27 10:23:05,663 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,665 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2524950CE.NFO.csv
+2025-10-27 10:23:05,735 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,736 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525000CE.NFO.csv
+2025-10-27 10:23:05,833 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,834 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525100CE.NFO.csv
+2025-10-27 10:23:05,914 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,916 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525150CE.NFO.csv
+2025-10-27 10:23:05,992 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:05,993 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525200CE.NFO.csv
+2025-10-27 10:23:06,070 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:06,072 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525250CE.NFO.csv
+2025-10-27 10:23:06,167 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:06,169 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525300CE.NFO.csv
+2025-10-27 10:23:06,241 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:06,242 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525400CE.NFO.csv
+2025-10-27 10:23:06,320 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:06,322 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525500CE.NFO.csv
+2025-10-27 10:23:06,408 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:06,410 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525600CE.NFO.csv
+2025-10-27 10:23:06,485 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:06,487 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525700CE.NFO.csv
+2025-10-27 10:23:06,562 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:06,564 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525800CE.NFO.csv
+2025-10-27 10:23:06,638 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:06,640 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2525900CE.NFO.csv
+2025-10-27 10:23:06,713 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:06,716 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2526000CE.NFO.csv
+2025-10-27 10:23:06,791 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:06,794 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2526100CE.NFO.csv
+2025-10-27 10:23:06,878 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:06,880 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2526200CE.NFO.csv
+2025-10-27 10:23:06,965 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:06,967 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2526300CE.NFO.csv
+2025-10-27 10:23:07,042 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:07,044 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2526400CE.NFO.csv
+2025-10-27 10:23:07,122 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:07,123 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2526500CE.NFO.csv
+2025-10-27 10:23:07,199 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:07,201 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2526600CE.NFO.csv
+2025-10-27 10:23:07,285 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:07,287 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2526700CE.NFO.csv
+2025-10-27 10:23:07,360 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:07,362 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2526800CE.NFO.csv
+2025-10-27 10:23:07,433 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:07,434 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2526900CE.NFO.csv
+2025-10-27 10:23:07,504 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:07,505 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2527000CE.NFO.csv
+2025-10-27 10:23:07,578 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:07,580 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2527500CE.NFO.csv
+2025-10-27 10:23:07,650 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:07,652 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\FINNIFTY30JAN2528000CE.NFO.csv
+2025-10-27 10:23:07,722 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedParquet\finnifty_call_03012025.parquet
+2025-10-27 10:23:07,724 [INFO] [root] [MainThread]: Utility stopped.

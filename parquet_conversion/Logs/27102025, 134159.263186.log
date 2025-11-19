@@ -1,0 +1,7 @@
+2025-10-27 13:41:59,265 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:41:59,266 [INFO] [root] [MainThread]: Processing MIDCPNIFTY from NFO exchange
+2025-10-27 13:41:59,267 [INFO] [root] [MainThread]: Found dated subfolder: GFDLNFO_TICK_03012025 -> date: 03012025
+2025-10-27 13:41:59,267 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'NFO\\GFDLNFO_TICK_03012025'}} for processing {'index': 'MIDCPNIFTY', 'instrument_type': 'put'}.
+2025-10-27 13:41:59,268 [INFO] [root] [MainThread]: Started processing folder: NFO\GFDLNFO_TICK_03012025 for {'index': 'MIDCPNIFTY', 'instrument_type': 'put'}, date: 03012025
+2025-10-27 13:41:59,274 [INFO] [root] [MainThread]: Found 0 put option files to process for MIDCPNIFTY.
+2025-10-27 13:41:59,274 [INFO] [root] [MainThread]: Utility stopped.

@@ -1,0 +1,10 @@
+2025-10-27 13:56:12,465 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:56:12,466 [INFO] [root] [MainThread]: Processing FINNIFTY from NFO exchange
+2025-10-27 13:56:12,466 [INFO] [root] [MainThread]: Detected yearly folder structure in NFO\GFDLNFO_TICK_03012025\GFDLNFO_TICK_03012025
+2025-10-27 13:56:13,215 [INFO] [root] [MainThread]: No date subfolders found, extracted date 03012025 from parent folder: GFDLNFO_TICK_03012025
+2025-10-27 13:56:13,216 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'NFO\\GFDLNFO_TICK_03012025\\GFDLNFO_TICK_03012025'}} for processing {'index': 'FINNIFTY', 'instrument_type': 'future'}.
+2025-10-27 13:56:13,227 [INFO] [root] [MainThread]: Started processing folder: NFO\GFDLNFO_TICK_03012025\GFDLNFO_TICK_03012025 for {'index': 'FINNIFTY', 'instrument_type': 'future'}, date: 03012025
+2025-10-27 13:56:13,227 [INFO] [root] [MainThread]: Started processing: NFO\GFDLNFO_TICK_03012025\GFDLNFO_TICK_03012025\Futures\-I\FINNIFTY-I.NFO.csv
+2025-10-27 13:56:13,270 [INFO] [root] [MainThread]: Successfully processed: NFO\GFDLNFO_TICK_03012025\GFDLNFO_TICK_03012025\Futures\-I\FINNIFTY-I.NFO.csv
+2025-10-27 13:56:13,306 [INFO] [root] [MainThread]: Saved 1 future files to ProcessedParquet\finnifty_future_03012025.parquet (527 rows)
+2025-10-27 13:56:13,306 [INFO] [root] [MainThread]: Utility stopped.

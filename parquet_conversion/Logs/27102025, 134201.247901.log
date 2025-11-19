@@ -1,0 +1,7 @@
+2025-10-27 13:42:01,248 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:42:01,249 [INFO] [root] [MainThread]: Processing SENSEX from BFO exchange
+2025-10-27 13:42:01,249 [INFO] [root] [MainThread]: Found dated subfolder: BFO_TICK_03012025 -> date: 03012025
+2025-10-27 13:42:01,250 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'BFO\\BFO_TICK_03012025'}} for processing {'index': 'SENSEX', 'instrument_type': 'put'}.
+2025-10-27 13:42:01,250 [INFO] [root] [MainThread]: Started processing folder: BFO\BFO_TICK_03012025 for {'index': 'SENSEX', 'instrument_type': 'put'}, date: 03012025
+2025-10-27 13:42:01,261 [INFO] [root] [MainThread]: Found 0 put option files to process for SENSEX.
+2025-10-27 13:42:01,262 [INFO] [root] [MainThread]: Utility stopped.

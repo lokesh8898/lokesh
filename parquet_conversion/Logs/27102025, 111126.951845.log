@@ -1,0 +1,9 @@
+2025-10-27 11:11:26,953 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 11:11:26,956 [INFO] [root] [MainThread]: Processing FINNIFTY from NFO exchange
+2025-10-27 11:11:26,956 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025 for exchange NFO
+2025-10-27 11:11:26,956 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'FINNIFTY', 'instrument_type': 'future'}.
+2025-10-27 11:11:26,957 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'FINNIFTY', 'instrument_type': 'future'}
+2025-10-27 11:11:26,969 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Futures\-I\FINNIFTY-I.NFO.csv
+2025-10-27 11:11:27,107 [INFO] [root] [MainThread]: Successfully processed: GFDLNFO_TICK_03012025\Futures\-I\FINNIFTY-I.NFO.csv
+2025-10-27 11:11:27,178 [INFO] [root] [MainThread]: Saved 1 future files to ProcessedParquet\finnifty_future_03012025.parquet (527 rows)
+2025-10-27 11:11:27,178 [INFO] [root] [MainThread]: Utility stopped.

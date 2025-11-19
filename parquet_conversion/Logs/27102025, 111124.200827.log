@@ -1,0 +1,9 @@
+2025-10-27 11:11:24,202 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 11:11:24,203 [INFO] [root] [MainThread]: Processing BANKNIFTY from NFO exchange
+2025-10-27 11:11:24,203 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025 for exchange NFO
+2025-10-27 11:11:24,203 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'BANKNIFTY', 'instrument_type': 'future'}.
+2025-10-27 11:11:24,204 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'BANKNIFTY', 'instrument_type': 'future'}
+2025-10-27 11:11:24,206 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Futures\-I\BANKNIFTY-I.NFO.csv
+2025-10-27 11:11:24,426 [INFO] [root] [MainThread]: Successfully processed: GFDLNFO_TICK_03012025\Futures\-I\BANKNIFTY-I.NFO.csv
+2025-10-27 11:11:24,501 [INFO] [root] [MainThread]: Saved 1 future files to ProcessedParquet\banknifty_future_03012025.parquet (9980 rows)
+2025-10-27 11:11:24,501 [INFO] [root] [MainThread]: Utility stopped.

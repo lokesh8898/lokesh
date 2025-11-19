@@ -1,0 +1,7 @@
+2025-10-27 13:35:58,262 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:35:58,263 [INFO] [root] [MainThread]: Processing NIFTY from NFO exchange
+2025-10-27 13:35:58,263 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025 for exchange NFO
+2025-10-27 13:35:58,264 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'NIFTY', 'instrument_type': 'call'}.
+2025-10-27 13:35:58,265 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'NIFTY', 'instrument_type': 'call'}, date: 03012025
+2025-10-27 13:35:58,266 [INFO] [root] [MainThread]: Found 0 call option files to process for NIFTY.
+2025-10-27 13:35:58,266 [INFO] [root] [MainThread]: Utility stopped.

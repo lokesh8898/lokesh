@@ -1,0 +1,7 @@
+2025-10-27 13:41:54,280 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 13:41:54,281 [INFO] [root] [MainThread]: Processing NIFTY from NFO exchange
+2025-10-27 13:41:54,282 [INFO] [root] [MainThread]: Found dated subfolder: GFDLNFO_TICK_03012025 -> date: 03012025
+2025-10-27 13:41:54,282 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'NFO\\GFDLNFO_TICK_03012025'}} for processing {'index': 'NIFTY', 'instrument_type': 'put'}.
+2025-10-27 13:41:54,284 [INFO] [root] [MainThread]: Started processing folder: NFO\GFDLNFO_TICK_03012025 for {'index': 'NIFTY', 'instrument_type': 'put'}, date: 03012025
+2025-10-27 13:41:54,285 [INFO] [root] [MainThread]: Found 0 put option files to process for NIFTY.
+2025-10-27 13:41:54,285 [INFO] [root] [MainThread]: Utility stopped.

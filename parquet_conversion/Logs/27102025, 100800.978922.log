@@ -1,0 +1,140 @@
+2025-10-27 10:08:00,979 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 10:08:00,980 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025
+2025-10-27 10:08:00,980 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'MIDCPNIFTY', 'instrument_type': 'call'}.
+2025-10-27 10:08:00,981 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'MIDCPNIFTY', 'instrument_type': 'call'}
+2025-10-27 10:08:01,015 [INFO] [root] [MainThread]: Found 67 call option files to process for MIDCPNIFTY.
+2025-10-27 10:08:01,016 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY27FEB2513000CE.NFO.csv
+2025-10-27 10:08:01,053 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,053 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY27FEB2513400CE.NFO.csv
+2025-10-27 10:08:01,074 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,075 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY27FEB2513500CE.NFO.csv
+2025-10-27 10:08:01,086 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,086 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY27FEB2514600CE.NFO.csv
+2025-10-27 10:08:01,097 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,097 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY27FEB2514700CE.NFO.csv
+2025-10-27 10:08:01,110 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,110 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512500CE.NFO.csv
+2025-10-27 10:08:01,148 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,148 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512525CE.NFO.csv
+2025-10-27 10:08:01,176 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,176 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512600CE.NFO.csv
+2025-10-27 10:08:01,221 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,221 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512700CE.NFO.csv
+2025-10-27 10:08:01,267 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,267 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512725CE.NFO.csv
+2025-10-27 10:08:01,310 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,311 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512750CE.NFO.csv
+2025-10-27 10:08:01,346 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,346 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512775CE.NFO.csv
+2025-10-27 10:08:01,398 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,398 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512800CE.NFO.csv
+2025-10-27 10:08:01,437 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,437 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512825CE.NFO.csv
+2025-10-27 10:08:01,476 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,476 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512850CE.NFO.csv
+2025-10-27 10:08:01,515 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,515 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512875CE.NFO.csv
+2025-10-27 10:08:01,563 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,564 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512900CE.NFO.csv
+2025-10-27 10:08:01,627 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,627 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512925CE.NFO.csv
+2025-10-27 10:08:01,662 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,662 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512950CE.NFO.csv
+2025-10-27 10:08:01,710 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,710 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2512975CE.NFO.csv
+2025-10-27 10:08:01,762 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,762 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513000CE.NFO.csv
+2025-10-27 10:08:01,867 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,867 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513025CE.NFO.csv
+2025-10-27 10:08:01,937 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:01,937 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513050CE.NFO.csv
+2025-10-27 10:08:02,008 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,008 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513075CE.NFO.csv
+2025-10-27 10:08:02,077 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,078 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513100CE.NFO.csv
+2025-10-27 10:08:02,181 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,182 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513125CE.NFO.csv
+2025-10-27 10:08:02,256 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,256 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513150CE.NFO.csv
+2025-10-27 10:08:02,322 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,322 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513175CE.NFO.csv
+2025-10-27 10:08:02,377 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,377 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513200CE.NFO.csv
+2025-10-27 10:08:02,457 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,457 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513225CE.NFO.csv
+2025-10-27 10:08:02,509 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,509 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513250CE.NFO.csv
+2025-10-27 10:08:02,566 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,566 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513275CE.NFO.csv
+2025-10-27 10:08:02,714 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,714 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513300CE.NFO.csv
+2025-10-27 10:08:02,792 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,793 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513325CE.NFO.csv
+2025-10-27 10:08:02,838 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,838 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513350CE.NFO.csv
+2025-10-27 10:08:02,884 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,885 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513375CE.NFO.csv
+2025-10-27 10:08:02,926 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,926 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513400CE.NFO.csv
+2025-10-27 10:08:02,986 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:02,987 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513425CE.NFO.csv
+2025-10-27 10:08:03,024 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,024 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513450CE.NFO.csv
+2025-10-27 10:08:03,062 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,063 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513475CE.NFO.csv
+2025-10-27 10:08:03,103 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,103 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513500CE.NFO.csv
+2025-10-27 10:08:03,194 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,194 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513525CE.NFO.csv
+2025-10-27 10:08:03,237 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,237 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513550CE.NFO.csv
+2025-10-27 10:08:03,277 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,277 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513575CE.NFO.csv
+2025-10-27 10:08:03,313 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,313 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513600CE.NFO.csv
+2025-10-27 10:08:03,374 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,374 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513625CE.NFO.csv
+2025-10-27 10:08:03,416 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,416 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513650CE.NFO.csv
+2025-10-27 10:08:03,443 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,443 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513675CE.NFO.csv
+2025-10-27 10:08:03,474 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,474 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513700CE.NFO.csv
+2025-10-27 10:08:03,522 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,522 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513725CE.NFO.csv
+2025-10-27 10:08:03,555 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,555 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513750CE.NFO.csv
+2025-10-27 10:08:03,586 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,586 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513775CE.NFO.csv
+2025-10-27 10:08:03,618 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,618 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513800CE.NFO.csv
+2025-10-27 10:08:03,667 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,667 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513825CE.NFO.csv
+2025-10-27 10:08:03,693 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,693 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513850CE.NFO.csv
+2025-10-27 10:08:03,722 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,722 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513875CE.NFO.csv
+2025-10-27 10:08:03,749 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,749 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513900CE.NFO.csv
+2025-10-27 10:08:03,786 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,786 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513925CE.NFO.csv
+2025-10-27 10:08:03,806 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,806 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2513950CE.NFO.csv
+2025-10-27 10:08:03,825 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,825 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2514000CE.NFO.csv
+2025-10-27 10:08:03,865 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,865 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2514100CE.NFO.csv
+2025-10-27 10:08:03,890 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,890 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2514200CE.NFO.csv
+2025-10-27 10:08:03,915 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,915 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2514300CE.NFO.csv
+2025-10-27 10:08:03,934 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,934 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2514400CE.NFO.csv
+2025-10-27 10:08:03,954 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,954 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2514500CE.NFO.csv
+2025-10-27 10:08:03,983 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,984 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2514600CE.NFO.csv
+2025-10-27 10:08:03,996 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:03,996 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\MIDCPNIFTY30JAN2514700CE.NFO.csv
+2025-10-27 10:08:04,027 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\midcpnifty_call_03012025.csv
+2025-10-27 10:08:04,027 [INFO] [root] [MainThread]: Utility stopped.

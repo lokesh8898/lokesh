@@ -1,0 +1,856 @@
+2025-10-27 09:53:03,310 [INFO] [root] [MainThread]: Utility started.
+2025-10-27 09:53:03,311 [INFO] [root] [MainThread]: Found date 03012025 from folder name: GFDLNFO_TICK_03012025
+2025-10-27 09:53:03,311 [INFO] [root] [MainThread]: Got following folder info {'03012025': {'GFDLNFO_TICK_03012025'}} for processing {'index': 'NIFTY', 'instrument_type': 'call'}.
+2025-10-27 09:53:03,311 [INFO] [root] [MainThread]: Started processing folder: GFDLNFO_TICK_03012025 for {'index': 'NIFTY', 'instrument_type': 'call'}
+2025-10-27 09:53:03,340 [INFO] [root] [MainThread]: Found 425 call option files to process for NIFTY.
+2025-10-27 09:53:03,351 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2523950CE.NFO.csv
+2025-10-27 09:53:03,378 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,378 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524000CE.NFO.csv
+2025-10-27 09:53:03,407 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,407 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524100CE.NFO.csv
+2025-10-27 09:53:03,433 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,434 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524200CE.NFO.csv
+2025-10-27 09:53:03,464 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,465 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524350CE.NFO.csv
+2025-10-27 09:53:03,492 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,492 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524500CE.NFO.csv
+2025-10-27 09:53:03,506 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,506 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524700CE.NFO.csv
+2025-10-27 09:53:03,525 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,525 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2524800CE.NFO.csv
+2025-10-27 09:53:03,547 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,547 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2525000CE.NFO.csv
+2025-10-27 09:53:03,559 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,559 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2525500CE.NFO.csv
+2025-10-27 09:53:03,573 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,573 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY06FEB2525700CE.NFO.csv
+2025-10-27 09:53:03,587 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,587 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2521850CE.NFO.csv
+2025-10-27 09:53:03,609 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,609 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522000CE.NFO.csv
+2025-10-27 09:53:03,641 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,641 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522400CE.NFO.csv
+2025-10-27 09:53:03,677 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,677 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522500CE.NFO.csv
+2025-10-27 09:53:03,715 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,715 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522600CE.NFO.csv
+2025-10-27 09:53:03,745 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,745 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522700CE.NFO.csv
+2025-10-27 09:53:03,775 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,775 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522750CE.NFO.csv
+2025-10-27 09:53:03,793 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,793 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522800CE.NFO.csv
+2025-10-27 09:53:03,823 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,824 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522850CE.NFO.csv
+2025-10-27 09:53:03,858 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,858 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2522900CE.NFO.csv
+2025-10-27 09:53:03,890 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,890 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523000CE.NFO.csv
+2025-10-27 09:53:03,936 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,936 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523100CE.NFO.csv
+2025-10-27 09:53:03,969 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:03,969 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523150CE.NFO.csv
+2025-10-27 09:53:04,006 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,006 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523200CE.NFO.csv
+2025-10-27 09:53:04,042 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,043 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523250CE.NFO.csv
+2025-10-27 09:53:04,074 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,074 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523300CE.NFO.csv
+2025-10-27 09:53:04,110 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,110 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523350CE.NFO.csv
+2025-10-27 09:53:04,142 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,142 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523400CE.NFO.csv
+2025-10-27 09:53:04,182 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,183 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523450CE.NFO.csv
+2025-10-27 09:53:04,219 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,219 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523500CE.NFO.csv
+2025-10-27 09:53:04,324 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,324 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523550CE.NFO.csv
+2025-10-27 09:53:04,364 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,365 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523600CE.NFO.csv
+2025-10-27 09:53:04,468 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,468 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523650CE.NFO.csv
+2025-10-27 09:53:04,524 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,524 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523700CE.NFO.csv
+2025-10-27 09:53:04,657 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,657 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523750CE.NFO.csv
+2025-10-27 09:53:04,774 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:04,774 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523800CE.NFO.csv
+2025-10-27 09:53:05,017 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:05,018 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523850CE.NFO.csv
+2025-10-27 09:53:05,206 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:05,207 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523900CE.NFO.csv
+2025-10-27 09:53:05,518 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:05,518 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2523950CE.NFO.csv
+2025-10-27 09:53:05,835 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:05,835 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524000CE.NFO.csv
+2025-10-27 09:53:06,176 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:06,177 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524050CE.NFO.csv
+2025-10-27 09:53:06,510 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:06,510 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524100CE.NFO.csv
+2025-10-27 09:53:06,833 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:06,834 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524150CE.NFO.csv
+2025-10-27 09:53:07,166 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:07,166 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524200CE.NFO.csv
+2025-10-27 09:53:07,489 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:07,490 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524250CE.NFO.csv
+2025-10-27 09:53:07,816 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:07,816 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524300CE.NFO.csv
+2025-10-27 09:53:08,150 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:08,151 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524350CE.NFO.csv
+2025-10-27 09:53:08,468 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:08,469 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524400CE.NFO.csv
+2025-10-27 09:53:08,794 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:08,794 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524450CE.NFO.csv
+2025-10-27 09:53:09,119 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:09,120 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524500CE.NFO.csv
+2025-10-27 09:53:09,441 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:09,441 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524550CE.NFO.csv
+2025-10-27 09:53:09,772 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:09,772 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524600CE.NFO.csv
+2025-10-27 09:53:10,101 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:10,102 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524650CE.NFO.csv
+2025-10-27 09:53:10,401 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:10,401 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524700CE.NFO.csv
+2025-10-27 09:53:10,714 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:10,715 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524750CE.NFO.csv
+2025-10-27 09:53:11,006 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:11,006 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524800CE.NFO.csv
+2025-10-27 09:53:11,347 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:11,347 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524850CE.NFO.csv
+2025-10-27 09:53:11,617 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:11,618 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524900CE.NFO.csv
+2025-10-27 09:53:11,903 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:11,903 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2524950CE.NFO.csv
+2025-10-27 09:53:12,137 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:12,137 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525000CE.NFO.csv
+2025-10-27 09:53:12,426 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:12,427 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525050CE.NFO.csv
+2025-10-27 09:53:12,605 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:12,606 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525100CE.NFO.csv
+2025-10-27 09:53:12,770 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:12,770 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525150CE.NFO.csv
+2025-10-27 09:53:12,951 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:12,951 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525200CE.NFO.csv
+2025-10-27 09:53:13,142 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:13,143 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525250CE.NFO.csv
+2025-10-27 09:53:13,298 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:13,299 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525300CE.NFO.csv
+2025-10-27 09:53:13,398 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:13,398 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525350CE.NFO.csv
+2025-10-27 09:53:13,522 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:13,522 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525400CE.NFO.csv
+2025-10-27 09:53:13,595 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:13,595 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525450CE.NFO.csv
+2025-10-27 09:53:13,696 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:13,696 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525500CE.NFO.csv
+2025-10-27 09:53:13,793 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:13,793 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525550CE.NFO.csv
+2025-10-27 09:53:13,876 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:13,876 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525600CE.NFO.csv
+2025-10-27 09:53:13,924 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:13,924 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525650CE.NFO.csv
+2025-10-27 09:53:14,014 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,014 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525700CE.NFO.csv
+2025-10-27 09:53:14,064 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,064 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525750CE.NFO.csv
+2025-10-27 09:53:14,142 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,142 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525800CE.NFO.csv
+2025-10-27 09:53:14,188 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,188 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525850CE.NFO.csv
+2025-10-27 09:53:14,253 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,253 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525900CE.NFO.csv
+2025-10-27 09:53:14,290 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,291 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2525950CE.NFO.csv
+2025-10-27 09:53:14,350 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,350 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526000CE.NFO.csv
+2025-10-27 09:53:14,436 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,437 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526050CE.NFO.csv
+2025-10-27 09:53:14,493 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,493 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526100CE.NFO.csv
+2025-10-27 09:53:14,531 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,531 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526150CE.NFO.csv
+2025-10-27 09:53:14,571 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,571 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526200CE.NFO.csv
+2025-10-27 09:53:14,607 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,607 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526250CE.NFO.csv
+2025-10-27 09:53:14,648 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,649 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526300CE.NFO.csv
+2025-10-27 09:53:14,690 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,690 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526350CE.NFO.csv
+2025-10-27 09:53:14,747 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,747 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526400CE.NFO.csv
+2025-10-27 09:53:14,795 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,795 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526450CE.NFO.csv
+2025-10-27 09:53:14,865 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,865 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY09JAN2526500CE.NFO.csv
+2025-10-27 09:53:14,953 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,954 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2522000CE.NFO.csv
+2025-10-27 09:53:14,981 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:14,981 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2522500CE.NFO.csv
+2025-10-27 09:53:15,001 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,001 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523000CE.NFO.csv
+2025-10-27 09:53:15,035 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,035 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523100CE.NFO.csv
+2025-10-27 09:53:15,048 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,048 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523200CE.NFO.csv
+2025-10-27 09:53:15,075 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,075 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523250CE.NFO.csv
+2025-10-27 09:53:15,086 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,087 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523300CE.NFO.csv
+2025-10-27 09:53:15,113 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,113 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523350CE.NFO.csv
+2025-10-27 09:53:15,134 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,134 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523400CE.NFO.csv
+2025-10-27 09:53:15,162 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,162 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523450CE.NFO.csv
+2025-10-27 09:53:15,187 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,187 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523500CE.NFO.csv
+2025-10-27 09:53:15,227 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,227 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523550CE.NFO.csv
+2025-10-27 09:53:15,251 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,251 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523600CE.NFO.csv
+2025-10-27 09:53:15,292 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,292 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523650CE.NFO.csv
+2025-10-27 09:53:15,327 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,327 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523700CE.NFO.csv
+2025-10-27 09:53:15,376 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,376 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523750CE.NFO.csv
+2025-10-27 09:53:15,413 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,413 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523800CE.NFO.csv
+2025-10-27 09:53:15,474 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,474 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523850CE.NFO.csv
+2025-10-27 09:53:15,578 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,578 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523900CE.NFO.csv
+2025-10-27 09:53:15,660 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,660 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2523950CE.NFO.csv
+2025-10-27 09:53:15,701 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,701 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524000CE.NFO.csv
+2025-10-27 09:53:15,853 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,854 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524050CE.NFO.csv
+2025-10-27 09:53:15,920 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:15,920 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524100CE.NFO.csv
+2025-10-27 09:53:16,068 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:16,068 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524150CE.NFO.csv
+2025-10-27 09:53:16,143 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:16,144 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524200CE.NFO.csv
+2025-10-27 09:53:16,280 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:16,280 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524250CE.NFO.csv
+2025-10-27 09:53:16,338 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:16,339 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524300CE.NFO.csv
+2025-10-27 09:53:16,457 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:16,458 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524350CE.NFO.csv
+2025-10-27 09:53:16,523 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:16,523 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524400CE.NFO.csv
+2025-10-27 09:53:16,643 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:16,643 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524450CE.NFO.csv
+2025-10-27 09:53:16,710 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:16,710 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524500CE.NFO.csv
+2025-10-27 09:53:16,893 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:16,893 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524550CE.NFO.csv
+2025-10-27 09:53:16,962 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:16,962 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524600CE.NFO.csv
+2025-10-27 09:53:17,094 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:17,094 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524650CE.NFO.csv
+2025-10-27 09:53:17,161 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:17,162 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524700CE.NFO.csv
+2025-10-27 09:53:17,270 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:17,271 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524750CE.NFO.csv
+2025-10-27 09:53:17,338 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:17,338 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524800CE.NFO.csv
+2025-10-27 09:53:17,464 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:17,464 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524850CE.NFO.csv
+2025-10-27 09:53:17,534 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:17,534 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524900CE.NFO.csv
+2025-10-27 09:53:17,652 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:17,653 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2524950CE.NFO.csv
+2025-10-27 09:53:17,705 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:17,706 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525000CE.NFO.csv
+2025-10-27 09:53:17,844 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:17,844 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525050CE.NFO.csv
+2025-10-27 09:53:17,903 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:17,903 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525100CE.NFO.csv
+2025-10-27 09:53:17,986 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:17,986 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525150CE.NFO.csv
+2025-10-27 09:53:18,029 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,029 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525200CE.NFO.csv
+2025-10-27 09:53:18,089 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,089 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525250CE.NFO.csv
+2025-10-27 09:53:18,127 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,128 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525300CE.NFO.csv
+2025-10-27 09:53:18,175 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,175 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525350CE.NFO.csv
+2025-10-27 09:53:18,205 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,205 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525400CE.NFO.csv
+2025-10-27 09:53:18,230 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,230 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525450CE.NFO.csv
+2025-10-27 09:53:18,258 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,258 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525500CE.NFO.csv
+2025-10-27 09:53:18,288 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,289 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525550CE.NFO.csv
+2025-10-27 09:53:18,309 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,309 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525600CE.NFO.csv
+2025-10-27 09:53:18,328 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,328 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525650CE.NFO.csv
+2025-10-27 09:53:18,346 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,346 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525700CE.NFO.csv
+2025-10-27 09:53:18,365 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,365 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525750CE.NFO.csv
+2025-10-27 09:53:18,379 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,380 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525800CE.NFO.csv
+2025-10-27 09:53:18,396 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,396 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525850CE.NFO.csv
+2025-10-27 09:53:18,412 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,412 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525900CE.NFO.csv
+2025-10-27 09:53:18,430 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,430 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2525950CE.NFO.csv
+2025-10-27 09:53:18,444 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,444 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526000CE.NFO.csv
+2025-10-27 09:53:18,475 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,476 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526050CE.NFO.csv
+2025-10-27 09:53:18,491 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,491 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526100CE.NFO.csv
+2025-10-27 09:53:18,507 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,507 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526150CE.NFO.csv
+2025-10-27 09:53:18,522 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,522 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526200CE.NFO.csv
+2025-10-27 09:53:18,536 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,536 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526250CE.NFO.csv
+2025-10-27 09:53:18,550 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,550 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526300CE.NFO.csv
+2025-10-27 09:53:18,564 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,564 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526350CE.NFO.csv
+2025-10-27 09:53:18,584 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,585 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526400CE.NFO.csv
+2025-10-27 09:53:18,603 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,603 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526450CE.NFO.csv
+2025-10-27 09:53:18,617 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,617 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY16JAN2526500CE.NFO.csv
+2025-10-27 09:53:18,640 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,640 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2523500CE.NFO.csv
+2025-10-27 09:53:18,659 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,660 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2523600CE.NFO.csv
+2025-10-27 09:53:18,672 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,672 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2523650CE.NFO.csv
+2025-10-27 09:53:18,687 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,688 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2523700CE.NFO.csv
+2025-10-27 09:53:18,709 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,709 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2523750CE.NFO.csv
+2025-10-27 09:53:18,736 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,737 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2523800CE.NFO.csv
+2025-10-27 09:53:18,766 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,766 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2523850CE.NFO.csv
+2025-10-27 09:53:18,796 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,796 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2523900CE.NFO.csv
+2025-10-27 09:53:18,828 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,828 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2523950CE.NFO.csv
+2025-10-27 09:53:18,857 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,857 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524000CE.NFO.csv
+2025-10-27 09:53:18,902 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,903 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524050CE.NFO.csv
+2025-10-27 09:53:18,931 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,932 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524100CE.NFO.csv
+2025-10-27 09:53:18,975 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:18,975 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524150CE.NFO.csv
+2025-10-27 09:53:19,011 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,011 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524200CE.NFO.csv
+2025-10-27 09:53:19,053 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,053 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524250CE.NFO.csv
+2025-10-27 09:53:19,078 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,078 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524300CE.NFO.csv
+2025-10-27 09:53:19,115 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,115 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524350CE.NFO.csv
+2025-10-27 09:53:19,143 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,143 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524400CE.NFO.csv
+2025-10-27 09:53:19,183 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,183 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524450CE.NFO.csv
+2025-10-27 09:53:19,211 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,211 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524500CE.NFO.csv
+2025-10-27 09:53:19,267 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,267 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524550CE.NFO.csv
+2025-10-27 09:53:19,296 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,297 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524600CE.NFO.csv
+2025-10-27 09:53:19,339 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,339 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524650CE.NFO.csv
+2025-10-27 09:53:19,364 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,364 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524700CE.NFO.csv
+2025-10-27 09:53:19,400 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,400 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524750CE.NFO.csv
+2025-10-27 09:53:19,421 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,422 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524800CE.NFO.csv
+2025-10-27 09:53:19,454 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,454 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524850CE.NFO.csv
+2025-10-27 09:53:19,479 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,479 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524900CE.NFO.csv
+2025-10-27 09:53:19,506 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,507 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2524950CE.NFO.csv
+2025-10-27 09:53:19,528 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,529 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525000CE.NFO.csv
+2025-10-27 09:53:19,577 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,577 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525050CE.NFO.csv
+2025-10-27 09:53:19,597 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,598 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525100CE.NFO.csv
+2025-10-27 09:53:19,614 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,614 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525150CE.NFO.csv
+2025-10-27 09:53:19,628 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,628 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525200CE.NFO.csv
+2025-10-27 09:53:19,646 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,646 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525300CE.NFO.csv
+2025-10-27 09:53:19,661 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,661 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525400CE.NFO.csv
+2025-10-27 09:53:19,676 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,676 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525450CE.NFO.csv
+2025-10-27 09:53:19,688 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,688 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525500CE.NFO.csv
+2025-10-27 09:53:19,704 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,704 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525550CE.NFO.csv
+2025-10-27 09:53:19,715 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,715 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525600CE.NFO.csv
+2025-10-27 09:53:19,728 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,728 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525700CE.NFO.csv
+2025-10-27 09:53:19,743 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,743 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY23JAN2525800CE.NFO.csv
+2025-10-27 09:53:19,756 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,756 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY24DEC2519000CE.NFO.csv
+2025-10-27 09:53:19,768 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,768 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY24DEC2520000CE.NFO.csv
+2025-10-27 09:53:19,781 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,781 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY24DEC2523000CE.NFO.csv
+2025-10-27 09:53:19,802 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,802 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY24DEC2524000CE.NFO.csv
+2025-10-27 09:53:19,828 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,829 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY24DEC2525000CE.NFO.csv
+2025-10-27 09:53:19,855 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,855 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY24DEC2526000CE.NFO.csv
+2025-10-27 09:53:19,887 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,887 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY24DEC2527000CE.NFO.csv
+2025-10-27 09:53:19,912 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,912 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY24DEC2528000CE.NFO.csv
+2025-10-27 09:53:19,928 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,928 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY24DEC2529000CE.NFO.csv
+2025-10-27 09:53:19,943 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,943 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY24DEC2530000CE.NFO.csv
+2025-10-27 09:53:19,956 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,956 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY24DEC2531000CE.NFO.csv
+2025-10-27 09:53:19,967 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:19,968 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY26JUN2523000CE.NFO.csv
+2025-10-27 09:53:20,004 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,004 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY26JUN2524000CE.NFO.csv
+2025-10-27 09:53:20,042 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,042 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY26JUN2525000CE.NFO.csv
+2025-10-27 09:53:20,085 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,086 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY26JUN2526000CE.NFO.csv
+2025-10-27 09:53:20,115 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,116 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY26JUN2527000CE.NFO.csv
+2025-10-27 09:53:20,145 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,146 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY26JUN2528000CE.NFO.csv
+2025-10-27 09:53:20,167 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,168 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY26JUN2529000CE.NFO.csv
+2025-10-27 09:53:20,179 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,179 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY26JUN2530000CE.NFO.csv
+2025-10-27 09:53:20,191 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,191 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2522000CE.NFO.csv
+2025-10-27 09:53:20,206 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,206 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2522200CE.NFO.csv
+2025-10-27 09:53:20,217 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,217 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2522500CE.NFO.csv
+2025-10-27 09:53:20,232 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,232 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523000CE.NFO.csv
+2025-10-27 09:53:20,256 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,256 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523200CE.NFO.csv
+2025-10-27 09:53:20,270 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,270 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523300CE.NFO.csv
+2025-10-27 09:53:20,285 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,286 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523400CE.NFO.csv
+2025-10-27 09:53:20,302 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,302 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523450CE.NFO.csv
+2025-10-27 09:53:20,316 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,316 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523500CE.NFO.csv
+2025-10-27 09:53:20,347 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,347 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523550CE.NFO.csv
+2025-10-27 09:53:20,369 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,369 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523600CE.NFO.csv
+2025-10-27 09:53:20,386 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,386 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523650CE.NFO.csv
+2025-10-27 09:53:20,402 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,402 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523700CE.NFO.csv
+2025-10-27 09:53:20,424 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,425 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523750CE.NFO.csv
+2025-10-27 09:53:20,452 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,453 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523800CE.NFO.csv
+2025-10-27 09:53:20,480 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,481 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523850CE.NFO.csv
+2025-10-27 09:53:20,514 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,514 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523900CE.NFO.csv
+2025-10-27 09:53:20,540 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,540 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2523950CE.NFO.csv
+2025-10-27 09:53:20,572 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,572 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524000CE.NFO.csv
+2025-10-27 09:53:20,634 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,634 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524050CE.NFO.csv
+2025-10-27 09:53:20,665 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,665 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524100CE.NFO.csv
+2025-10-27 09:53:20,704 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,704 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524150CE.NFO.csv
+2025-10-27 09:53:20,736 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,736 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524200CE.NFO.csv
+2025-10-27 09:53:20,774 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,775 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524250CE.NFO.csv
+2025-10-27 09:53:20,805 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,805 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524300CE.NFO.csv
+2025-10-27 09:53:20,842 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,842 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524350CE.NFO.csv
+2025-10-27 09:53:20,870 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,870 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524400CE.NFO.csv
+2025-10-27 09:53:20,906 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,906 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524450CE.NFO.csv
+2025-10-27 09:53:20,940 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:20,940 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524500CE.NFO.csv
+2025-10-27 09:53:21,016 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,016 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524550CE.NFO.csv
+2025-10-27 09:53:21,051 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,052 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524600CE.NFO.csv
+2025-10-27 09:53:21,079 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,079 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524650CE.NFO.csv
+2025-10-27 09:53:21,108 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,108 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524700CE.NFO.csv
+2025-10-27 09:53:21,136 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,136 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524750CE.NFO.csv
+2025-10-27 09:53:21,169 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,169 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524800CE.NFO.csv
+2025-10-27 09:53:21,197 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,197 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524850CE.NFO.csv
+2025-10-27 09:53:21,220 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,220 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524900CE.NFO.csv
+2025-10-27 09:53:21,247 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,248 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2524950CE.NFO.csv
+2025-10-27 09:53:21,274 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,274 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525000CE.NFO.csv
+2025-10-27 09:53:21,364 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,365 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525050CE.NFO.csv
+2025-10-27 09:53:21,387 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,387 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525100CE.NFO.csv
+2025-10-27 09:53:21,407 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,407 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525150CE.NFO.csv
+2025-10-27 09:53:21,430 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,430 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525200CE.NFO.csv
+2025-10-27 09:53:21,462 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,462 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525250CE.NFO.csv
+2025-10-27 09:53:21,491 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,491 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525300CE.NFO.csv
+2025-10-27 09:53:21,511 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,511 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525350CE.NFO.csv
+2025-10-27 09:53:21,530 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,531 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525400CE.NFO.csv
+2025-10-27 09:53:21,552 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,552 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525450CE.NFO.csv
+2025-10-27 09:53:21,576 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,576 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525500CE.NFO.csv
+2025-10-27 09:53:21,655 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,656 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525550CE.NFO.csv
+2025-10-27 09:53:21,677 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,677 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525600CE.NFO.csv
+2025-10-27 09:53:21,698 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,698 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525650CE.NFO.csv
+2025-10-27 09:53:21,720 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,720 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525700CE.NFO.csv
+2025-10-27 09:53:21,738 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,738 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525750CE.NFO.csv
+2025-10-27 09:53:21,751 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,751 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525800CE.NFO.csv
+2025-10-27 09:53:21,769 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,769 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525850CE.NFO.csv
+2025-10-27 09:53:21,781 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,781 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525900CE.NFO.csv
+2025-10-27 09:53:21,796 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,797 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2525950CE.NFO.csv
+2025-10-27 09:53:21,811 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,812 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2526000CE.NFO.csv
+2025-10-27 09:53:21,878 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,878 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2526050CE.NFO.csv
+2025-10-27 09:53:21,892 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,892 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2526100CE.NFO.csv
+2025-10-27 09:53:21,907 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,908 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2526150CE.NFO.csv
+2025-10-27 09:53:21,920 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,921 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2526200CE.NFO.csv
+2025-10-27 09:53:21,937 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,937 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2526250CE.NFO.csv
+2025-10-27 09:53:21,949 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,949 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2526300CE.NFO.csv
+2025-10-27 09:53:21,965 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,965 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2526400CE.NFO.csv
+2025-10-27 09:53:21,979 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:21,980 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27FEB2526500CE.NFO.csv
+2025-10-27 09:53:22,011 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,011 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2518000CE.NFO.csv
+2025-10-27 09:53:22,044 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,044 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2520000CE.NFO.csv
+2025-10-27 09:53:22,075 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,075 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2521000CE.NFO.csv
+2025-10-27 09:53:22,099 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,099 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2522000CE.NFO.csv
+2025-10-27 09:53:22,126 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,126 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2523000CE.NFO.csv
+2025-10-27 09:53:22,166 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,167 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2523500CE.NFO.csv
+2025-10-27 09:53:22,196 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,196 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2523600CE.NFO.csv
+2025-10-27 09:53:22,219 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,219 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2523700CE.NFO.csv
+2025-10-27 09:53:22,244 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,244 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2523800CE.NFO.csv
+2025-10-27 09:53:22,269 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,269 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2523900CE.NFO.csv
+2025-10-27 09:53:22,292 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,292 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2523950CE.NFO.csv
+2025-10-27 09:53:22,320 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,320 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2524000CE.NFO.csv
+2025-10-27 09:53:22,385 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,385 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2524050CE.NFO.csv
+2025-10-27 09:53:22,410 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,410 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2524100CE.NFO.csv
+2025-10-27 09:53:22,426 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,426 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2524200CE.NFO.csv
+2025-10-27 09:53:22,443 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,443 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2524300CE.NFO.csv
+2025-10-27 09:53:22,458 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,458 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2524450CE.NFO.csv
+2025-10-27 09:53:22,486 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,487 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2524500CE.NFO.csv
+2025-10-27 09:53:22,531 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,531 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2524600CE.NFO.csv
+2025-10-27 09:53:22,545 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,545 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2524700CE.NFO.csv
+2025-10-27 09:53:22,557 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,557 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2524800CE.NFO.csv
+2025-10-27 09:53:22,573 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,573 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2524900CE.NFO.csv
+2025-10-27 09:53:22,588 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,588 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2525000CE.NFO.csv
+2025-10-27 09:53:22,658 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,659 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2525100CE.NFO.csv
+2025-10-27 09:53:22,674 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,674 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2525200CE.NFO.csv
+2025-10-27 09:53:22,689 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,689 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2525300CE.NFO.csv
+2025-10-27 09:53:22,704 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,704 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2525350CE.NFO.csv
+2025-10-27 09:53:22,715 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,715 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2525400CE.NFO.csv
+2025-10-27 09:53:22,727 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,728 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2525500CE.NFO.csv
+2025-10-27 09:53:22,760 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,760 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2526000CE.NFO.csv
+2025-10-27 09:53:22,813 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,813 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2527000CE.NFO.csv
+2025-10-27 09:53:22,842 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,842 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2528000CE.NFO.csv
+2025-10-27 09:53:22,859 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,860 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2529000CE.NFO.csv
+2025-10-27 09:53:22,877 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,877 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2530000CE.NFO.csv
+2025-10-27 09:53:22,892 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,892 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY27MAR2531000CE.NFO.csv
+2025-10-27 09:53:22,914 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,914 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2521600CE.NFO.csv
+2025-10-27 09:53:22,934 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,934 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2521700CE.NFO.csv
+2025-10-27 09:53:22,948 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,948 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2522000CE.NFO.csv
+2025-10-27 09:53:22,995 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:22,996 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2522200CE.NFO.csv
+2025-10-27 09:53:23,009 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,009 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2522300CE.NFO.csv
+2025-10-27 09:53:23,022 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,022 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2522500CE.NFO.csv
+2025-10-27 09:53:23,060 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,060 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2522600CE.NFO.csv
+2025-10-27 09:53:23,072 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,072 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2522800CE.NFO.csv
+2025-10-27 09:53:23,086 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,086 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2522900CE.NFO.csv
+2025-10-27 09:53:23,097 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,098 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523000CE.NFO.csv
+2025-10-27 09:53:23,155 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,155 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523050CE.NFO.csv
+2025-10-27 09:53:23,186 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,186 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523100CE.NFO.csv
+2025-10-27 09:53:23,210 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,210 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523150CE.NFO.csv
+2025-10-27 09:53:23,242 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,242 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523200CE.NFO.csv
+2025-10-27 09:53:23,268 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,268 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523300CE.NFO.csv
+2025-10-27 09:53:23,301 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,301 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523350CE.NFO.csv
+2025-10-27 09:53:23,316 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,316 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523400CE.NFO.csv
+2025-10-27 09:53:23,351 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,351 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523450CE.NFO.csv
+2025-10-27 09:53:23,378 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,378 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523500CE.NFO.csv
+2025-10-27 09:53:23,473 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,473 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523550CE.NFO.csv
+2025-10-27 09:53:23,517 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,517 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523600CE.NFO.csv
+2025-10-27 09:53:23,581 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,581 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523650CE.NFO.csv
+2025-10-27 09:53:23,618 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,618 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523700CE.NFO.csv
+2025-10-27 09:53:23,698 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,698 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523750CE.NFO.csv
+2025-10-27 09:53:23,808 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,809 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523800CE.NFO.csv
+2025-10-27 09:53:23,983 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:23,983 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523850CE.NFO.csv
+2025-10-27 09:53:24,033 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:24,033 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523900CE.NFO.csv
+2025-10-27 09:53:24,185 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:24,185 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2523950CE.NFO.csv
+2025-10-27 09:53:24,243 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:24,243 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524000CE.NFO.csv
+2025-10-27 09:53:24,535 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:24,535 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524050CE.NFO.csv
+2025-10-27 09:53:24,616 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:24,617 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524100CE.NFO.csv
+2025-10-27 09:53:24,819 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:24,820 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524150CE.NFO.csv
+2025-10-27 09:53:24,919 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:24,919 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524200CE.NFO.csv
+2025-10-27 09:53:25,171 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:25,172 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524250CE.NFO.csv
+2025-10-27 09:53:25,243 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:25,243 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524300CE.NFO.csv
+2025-10-27 09:53:25,383 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:25,383 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524350CE.NFO.csv
+2025-10-27 09:53:25,440 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:25,440 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524400CE.NFO.csv
+2025-10-27 09:53:25,573 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:25,574 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524450CE.NFO.csv
+2025-10-27 09:53:25,636 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:25,636 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524500CE.NFO.csv
+2025-10-27 09:53:25,879 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:25,880 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524550CE.NFO.csv
+2025-10-27 09:53:25,945 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:25,946 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524600CE.NFO.csv
+2025-10-27 09:53:26,084 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:26,084 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524650CE.NFO.csv
+2025-10-27 09:53:26,146 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:26,146 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524700CE.NFO.csv
+2025-10-27 09:53:26,308 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:26,309 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524750CE.NFO.csv
+2025-10-27 09:53:26,395 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:26,396 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524800CE.NFO.csv
+2025-10-27 09:53:26,580 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:26,580 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524850CE.NFO.csv
+2025-10-27 09:53:26,666 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:26,666 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524900CE.NFO.csv
+2025-10-27 09:53:26,799 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:26,799 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2524950CE.NFO.csv
+2025-10-27 09:53:26,884 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:26,884 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525000CE.NFO.csv
+2025-10-27 09:53:27,138 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:27,138 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525050CE.NFO.csv
+2025-10-27 09:53:27,215 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:27,215 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525100CE.NFO.csv
+2025-10-27 09:53:27,352 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:27,352 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525150CE.NFO.csv
+2025-10-27 09:53:27,442 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:27,442 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525200CE.NFO.csv
+2025-10-27 09:53:27,635 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:27,636 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525250CE.NFO.csv
+2025-10-27 09:53:27,734 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:27,735 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525300CE.NFO.csv
+2025-10-27 09:53:27,868 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:27,868 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525350CE.NFO.csv
+2025-10-27 09:53:27,933 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:27,933 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525400CE.NFO.csv
+2025-10-27 09:53:28,061 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,062 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525450CE.NFO.csv
+2025-10-27 09:53:28,108 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,108 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525500CE.NFO.csv
+2025-10-27 09:53:28,233 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,233 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525550CE.NFO.csv
+2025-10-27 09:53:28,279 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,280 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525600CE.NFO.csv
+2025-10-27 09:53:28,334 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,334 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525650CE.NFO.csv
+2025-10-27 09:53:28,369 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,370 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525700CE.NFO.csv
+2025-10-27 09:53:28,420 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,420 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525750CE.NFO.csv
+2025-10-27 09:53:28,458 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,458 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525800CE.NFO.csv
+2025-10-27 09:53:28,492 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,493 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525850CE.NFO.csv
+2025-10-27 09:53:28,526 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,526 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525900CE.NFO.csv
+2025-10-27 09:53:28,565 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,565 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2525950CE.NFO.csv
+2025-10-27 09:53:28,596 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,596 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2526000CE.NFO.csv
+2025-10-27 09:53:28,649 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,649 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2526050CE.NFO.csv
+2025-10-27 09:53:28,673 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,673 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2526100CE.NFO.csv
+2025-10-27 09:53:28,699 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,699 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2526150CE.NFO.csv
+2025-10-27 09:53:28,718 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,718 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2526200CE.NFO.csv
+2025-10-27 09:53:28,747 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,747 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2526250CE.NFO.csv
+2025-10-27 09:53:28,770 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,770 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2526300CE.NFO.csv
+2025-10-27 09:53:28,801 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,801 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2526350CE.NFO.csv
+2025-10-27 09:53:28,826 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,827 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2526400CE.NFO.csv
+2025-10-27 09:53:28,858 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,858 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2526450CE.NFO.csv
+2025-10-27 09:53:28,881 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,881 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY30JAN2526500CE.NFO.csv
+2025-10-27 09:53:28,919 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,919 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTY31DEC2625000CE.NFO.csv
+2025-10-27 09:53:28,941 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,941 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2568400CE.NFO.csv
+2025-10-27 09:53:28,975 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:28,976 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2568500CE.NFO.csv
+2025-10-27 09:53:29,010 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,010 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2568800CE.NFO.csv
+2025-10-27 09:53:29,023 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,024 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2568900CE.NFO.csv
+2025-10-27 09:53:29,044 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,044 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2569000CE.NFO.csv
+2025-10-27 09:53:29,066 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,066 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2569100CE.NFO.csv
+2025-10-27 09:53:29,079 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,079 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2569200CE.NFO.csv
+2025-10-27 09:53:29,094 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,094 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2569400CE.NFO.csv
+2025-10-27 09:53:29,114 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,114 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2569500CE.NFO.csv
+2025-10-27 09:53:29,142 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,143 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2569600CE.NFO.csv
+2025-10-27 09:53:29,156 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,156 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2569700CE.NFO.csv
+2025-10-27 09:53:29,169 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,169 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2570000CE.NFO.csv
+2025-10-27 09:53:29,183 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,183 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2570300CE.NFO.csv
+2025-10-27 09:53:29,196 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,197 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2570500CE.NFO.csv
+2025-10-27 09:53:29,210 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,210 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2573000CE.NFO.csv
+2025-10-27 09:53:29,221 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,221 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2575000CE.NFO.csv
+2025-10-27 09:53:29,236 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,236 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2580000CE.NFO.csv
+2025-10-27 09:53:29,251 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,251 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2581000CE.NFO.csv
+2025-10-27 09:53:29,265 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,266 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2582000CE.NFO.csv
+2025-10-27 09:53:29,291 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,291 [INFO] [root] [MainThread]: Started processing: GFDLNFO_TICK_03012025\Options\NIFTYNXT5030JAN2583000CE.NFO.csv
+2025-10-27 09:53:29,305 [INFO] [root] [MainThread]: Successfully processed and saved: ProcessedCSV\nifty_call_03012025.csv
+2025-10-27 09:53:29,305 [INFO] [root] [MainThread]: Utility stopped.
