@@ -1,0 +1,205 @@
+2025-10-28 12:18:49,471 [INFO] ====================================================================================================
+2025-10-28 12:18:49,472 [INFO] DIGITALOCEAN SPACES UPLOAD
+2025-10-28 12:18:49,472 [INFO] ====================================================================================================
+2025-10-28 12:18:49,473 [INFO] Source root: \nvme0n1-disk\parquet_data
+2025-10-28 12:18:49,473 [INFO] Input mode: Organized directory structure
+2025-10-28 12:18:49,474 [INFO] Endpoint: https://historical-db-tick.blr1.digitaloceanspaces.com
+2025-10-28 12:18:49,474 [INFO] Space: historical-db-tick
+2025-10-28 12:18:49,475 [INFO] Region: blr1
+2025-10-28 12:18:49,476 [INFO] Prefix: raw/parquet_data
+2025-10-28 12:18:49,476 [INFO] Symbols: banknifty, nifty, midcapnifty, sensex, crudeoil, naturalgas, finnifty, silverm, goldm
+2025-10-28 12:18:49,476 [INFO] Max workers: 10
+2025-10-28 12:18:49,477 [INFO] Dry run: False
+2025-10-28 12:18:49,477 [INFO] ====================================================================================================
+2025-10-28 12:18:51,243 [ERROR] Cannot proceed without accessible Space
+2025-10-28 12:20:06,236 [INFO] ====================================================================================================
+2025-10-28 12:20:06,236 [INFO] DIGITALOCEAN SPACES UPLOAD
+2025-10-28 12:20:06,237 [INFO] ====================================================================================================
+2025-10-28 12:20:06,238 [INFO] Source root: input
+2025-10-28 12:20:06,238 [INFO] Input mode: Flat file structure
+2025-10-28 12:20:06,238 [INFO] Endpoint: https://historical-db-tick.blr1.digitaloceanspaces.com
+2025-10-28 12:20:06,239 [INFO] Space: historical-db-tick
+2025-10-28 12:20:06,239 [INFO] Region: blr1
+2025-10-28 12:20:06,239 [INFO] Prefix: raw/parquet_data
+2025-10-28 12:20:06,239 [INFO] Symbols: banknifty, nifty, midcapnifty, sensex, crudeoil, naturalgas, finnifty, silverm, goldm
+2025-10-28 12:20:06,239 [INFO] Max workers: 10
+2025-10-28 12:20:06,240 [INFO] Dry run: True
+2025-10-28 12:20:06,240 [INFO] ====================================================================================================
+2025-10-28 12:20:06,240 [INFO] Discovering files to upload...
+2025-10-28 12:20:06,268 [INFO] 
+  FUTURES:
+2025-10-28 12:20:06,268 [INFO]     crudeoil            :      2 files |      0.1 MB
+2025-10-28 12:20:06,268 [INFO]     goldm               :      2 files |      0.2 MB
+2025-10-28 12:20:06,269 [INFO]     naturalgas          :      2 files |      0.3 MB
+2025-10-28 12:20:06,269 [INFO]     silverm             :      2 files |      0.2 MB
+2025-10-28 12:20:06,269 [INFO] 
+  OPTIONS:
+2025-10-28 12:20:06,269 [INFO]     crudeoil_call       :      2 files |      2.0 MB
+2025-10-28 12:20:06,269 [INFO]     crudeoil_put        :      2 files |      1.7 MB
+2025-10-28 12:20:06,269 [INFO]     goldm_call          :      2 files |      0.2 MB
+2025-10-28 12:20:06,270 [INFO]     goldm_put           :      2 files |      0.2 MB
+2025-10-28 12:20:06,270 [INFO]     naturalgas_call     :      2 files |      1.0 MB
+2025-10-28 12:20:06,270 [INFO]     naturalgas_put      :      2 files |      0.8 MB
+2025-10-28 12:20:06,270 [INFO]     silverm_call        :      2 files |      0.2 MB
+2025-10-28 12:20:06,306 [INFO]     silverm_put         :      2 files |      0.1 MB
+2025-10-28 12:20:06,310 [INFO] 
+  TOTAL          :     24 files |     0.01 GB
+2025-10-28 12:20:09,231 [INFO] 
+====================================================================================================
+2025-10-28 12:20:09,231 [INFO] DRY RUN COMPLETE
+2025-10-28 12:20:09,232 [INFO] ====================================================================================================
+2025-10-28 12:20:09,232 [INFO] Duration: 0:00:02.910823
+2025-10-28 12:20:09,235 [INFO]   Total files:       24
+2025-10-28 12:20:09,249 [INFO]   Total size:        0.00 GB
+2025-10-28 12:20:09,250 [INFO]   Average speed:     0.00 MB/s
+2025-10-28 12:20:09,260 [INFO]   Space Endpoint: https://historical-db-tick.blr1.digitaloceanspaces.com
+2025-10-28 12:20:09,261 [INFO]   Space Name: historical-db-tick
+2025-10-28 12:20:09,261 [INFO]   Data Path: raw/parquet_data/
+2025-10-28 12:20:09,265 [INFO]   raw/parquet_data/cash/[symbol]/YYYY/MM/*.parquet
+2025-10-28 12:20:09,266 [INFO]   raw/parquet_data/options/[symbol_call|symbol_put]/YYYY/MM/*.parquet
+2025-10-28 12:20:09,266 [INFO]   raw/parquet_data/futures/[symbol]/YYYY/MM/*.parquet
+2025-10-28 12:20:09,266 [INFO] ====================================================================================================
+2025-10-28 12:20:32,964 [INFO] ====================================================================================================
+2025-10-28 12:20:32,965 [INFO] DIGITALOCEAN SPACES UPLOAD
+2025-10-28 12:20:32,965 [INFO] ====================================================================================================
+2025-10-28 12:20:32,965 [INFO] Source root: \nvme0n1-disk\parquet_data
+2025-10-28 12:20:32,966 [INFO] Input mode: Organized directory structure
+2025-10-28 12:20:32,966 [INFO] Endpoint: https://historical-db-tick.blr1.digitaloceanspaces.com
+2025-10-28 12:20:32,966 [INFO] Space: historical-db-tick
+2025-10-28 12:20:32,966 [INFO] Region: blr1
+2025-10-28 12:20:32,967 [INFO] Prefix: raw/parquet_data
+2025-10-28 12:20:32,967 [INFO] Symbols: banknifty, nifty, midcapnifty, sensex, crudeoil, naturalgas, finnifty, silverm, goldm
+2025-10-28 12:20:32,967 [INFO] Max workers: 10
+2025-10-28 12:20:32,967 [INFO] Dry run: False
+2025-10-28 12:20:32,967 [INFO] ====================================================================================================
+2025-10-28 12:20:33,776 [ERROR] Cannot proceed without accessible Space
+2025-10-28 12:23:01,708 [INFO] ====================================================================================================
+2025-10-28 12:23:01,708 [INFO] DIGITALOCEAN SPACES UPLOAD
+2025-10-28 12:23:01,708 [INFO] ====================================================================================================
+2025-10-28 12:23:01,708 [INFO] Source root: input
+2025-10-28 12:23:01,708 [INFO] Input mode: Flat file structure
+2025-10-28 12:23:01,708 [INFO] Endpoint: https://blr1.digitaloceanspaces.com
+2025-10-28 12:23:01,709 [INFO] Space: historical-db-tick
+2025-10-28 12:23:01,709 [INFO] Region: blr1
+2025-10-28 12:23:01,709 [INFO] Prefix: raw/parquet_data
+2025-10-28 12:23:01,709 [INFO] Symbols: banknifty, nifty, midcapnifty, sensex, crudeoil, naturalgas, finnifty, silverm, goldm
+2025-10-28 12:23:01,709 [INFO] Max workers: 10
+2025-10-28 12:23:01,709 [INFO] Dry run: True
+2025-10-28 12:23:01,709 [INFO] ====================================================================================================
+2025-10-28 12:23:01,710 [INFO] Discovering files to upload...
+2025-10-28 12:23:01,719 [INFO] [OK] Discovered 24 files to upload
+2025-10-28 12:23:01,721 [INFO] 
+  FUTURES:
+2025-10-28 12:23:01,721 [INFO]     crudeoil            :      2 files |      0.1 MB
+2025-10-28 12:23:01,722 [INFO]     goldm               :      2 files |      0.2 MB
+2025-10-28 12:23:01,722 [INFO]     naturalgas          :      2 files |      0.3 MB
+2025-10-28 12:23:01,722 [INFO]     silverm             :      2 files |      0.2 MB
+2025-10-28 12:23:01,722 [INFO] 
+  OPTIONS:
+2025-10-28 12:23:01,722 [INFO]     crudeoil_call       :      2 files |      2.0 MB
+2025-10-28 12:23:01,722 [INFO]     crudeoil_put        :      2 files |      1.7 MB
+2025-10-28 12:23:01,723 [INFO]     goldm_call          :      2 files |      0.2 MB
+2025-10-28 12:23:01,723 [INFO]     goldm_put           :      2 files |      0.2 MB
+2025-10-28 12:23:01,723 [INFO]     naturalgas_call     :      2 files |      1.0 MB
+2025-10-28 12:23:01,723 [INFO]     naturalgas_put      :      2 files |      0.8 MB
+2025-10-28 12:23:01,724 [INFO]     silverm_call        :      2 files |      0.2 MB
+2025-10-28 12:23:01,724 [INFO]     silverm_put         :      2 files |      0.1 MB
+2025-10-28 12:23:01,725 [INFO] 
+  TOTAL          :     24 files |     0.01 GB
+2025-10-28 12:23:06,148 [INFO] 
+====================================================================================================
+2025-10-28 12:23:06,149 [INFO] DRY RUN COMPLETE
+2025-10-28 12:23:06,149 [INFO] ====================================================================================================
+2025-10-28 12:23:06,149 [INFO] Duration: 0:00:04.414533
+2025-10-28 12:23:06,150 [INFO]   Total files:       24
+2025-10-28 12:23:06,155 [INFO]   Total size:        0.00 GB
+2025-10-28 12:23:06,155 [INFO]   Average speed:     0.00 MB/s
+2025-10-28 12:23:06,164 [INFO]   Space Endpoint: https://blr1.digitaloceanspaces.com
+2025-10-28 12:23:06,164 [INFO]   Space Name: historical-db-tick
+2025-10-28 12:23:06,165 [INFO]   Data Path: raw/parquet_data/
+2025-10-28 12:23:06,168 [INFO]   raw/parquet_data/cash/[symbol]/YYYY/MM/*.parquet
+2025-10-28 12:23:06,168 [INFO]   raw/parquet_data/options/[symbol_call|symbol_put]/YYYY/MM/*.parquet
+2025-10-28 12:23:06,168 [INFO]   raw/parquet_data/futures/[symbol]/YYYY/MM/*.parquet
+2025-10-28 12:23:06,168 [INFO] ====================================================================================================
+2025-10-28 12:23:50,226 [INFO] ====================================================================================================
+2025-10-28 12:23:50,227 [INFO] DIGITALOCEAN SPACES UPLOAD
+2025-10-28 12:23:50,227 [INFO] ====================================================================================================
+2025-10-28 12:23:50,227 [INFO] Source root: \nvme0n1-disk\parquet_data
+2025-10-28 12:23:50,228 [INFO] Input mode: Organized directory structure
+2025-10-28 12:23:50,228 [INFO] Endpoint: https://blr1.digitaloceanspaces.com
+2025-10-28 12:23:50,228 [INFO] Space: historical-db-tick
+2025-10-28 12:23:50,229 [INFO] Region: blr1
+2025-10-28 12:23:50,229 [INFO] Prefix: raw/parquet_data
+2025-10-28 12:23:50,229 [INFO] Symbols: banknifty, nifty, midcapnifty, sensex, crudeoil, naturalgas, finnifty, silverm, goldm
+2025-10-28 12:23:50,230 [INFO] Max workers: 10
+2025-10-28 12:23:50,230 [INFO] Dry run: False
+2025-10-28 12:23:50,230 [INFO] ====================================================================================================
+2025-10-28 12:23:51,025 [INFO] Discovering files to upload...
+2025-10-28 12:23:51,028 [INFO] [OK] Discovered 0 files to upload
+2025-10-28 12:23:51,028 [INFO] 
+  TOTAL          :      0 files |     0.00 GB
+2025-10-28 12:23:51,029 [ERROR] No files to upload!
+2025-10-28 12:25:05,985 [INFO] ====================================================================================================
+2025-10-28 12:25:05,985 [INFO] DIGITALOCEAN SPACES UPLOAD
+2025-10-28 12:25:05,986 [INFO] ====================================================================================================
+2025-10-28 12:25:05,986 [INFO] Source root: input
+2025-10-28 12:25:05,987 [INFO] Input mode: Flat file structure
+2025-10-28 12:25:05,988 [INFO] Endpoint: https://blr1.digitaloceanspaces.com
+2025-10-28 12:25:05,988 [INFO] Space: historical-db-tick
+2025-10-28 12:25:05,988 [INFO] Region: blr1
+2025-10-28 12:25:05,988 [INFO] Prefix: raw/parquet_data
+2025-10-28 12:25:05,988 [INFO] Symbols: banknifty, nifty, midcapnifty, sensex, crudeoil, naturalgas, finnifty, silverm, goldm
+2025-10-28 12:25:05,988 [INFO] Max workers: 10
+2025-10-28 12:25:05,988 [INFO] Dry run: False
+2025-10-28 12:25:05,988 [INFO] ====================================================================================================
+2025-10-28 12:25:07,330 [INFO] Discovering files to upload...
+2025-10-28 12:25:07,339 [INFO] [OK] Discovered 24 files to upload
+2025-10-28 12:25:07,341 [INFO] 
+  FUTURES:
+2025-10-28 12:25:07,341 [INFO]     crudeoil            :      2 files |      0.1 MB
+2025-10-28 12:25:07,341 [INFO]     goldm               :      2 files |      0.2 MB
+2025-10-28 12:25:07,341 [INFO]     naturalgas          :      2 files |      0.3 MB
+2025-10-28 12:25:07,341 [INFO]     silverm             :      2 files |      0.2 MB
+2025-10-28 12:25:07,341 [INFO] 
+  OPTIONS:
+2025-10-28 12:25:07,341 [INFO]     crudeoil_call       :      2 files |      2.0 MB
+2025-10-28 12:25:07,341 [INFO]     crudeoil_put        :      2 files |      1.7 MB
+2025-10-28 12:25:07,342 [INFO]     goldm_call          :      2 files |      0.2 MB
+2025-10-28 12:25:07,342 [INFO]     goldm_put           :      2 files |      0.2 MB
+2025-10-28 12:25:07,342 [INFO]     naturalgas_call     :      2 files |      1.0 MB
+2025-10-28 12:25:07,342 [INFO]     naturalgas_put      :      2 files |      0.8 MB
+2025-10-28 12:25:07,342 [INFO]     silverm_call        :      2 files |      0.2 MB
+2025-10-28 12:25:07,342 [INFO]     silverm_put         :      2 files |      0.1 MB
+2025-10-28 12:25:07,342 [INFO] 
+  TOTAL          :     24 files |     0.01 GB
+2025-10-28 12:25:32,615 [INFO] 
+====================================================================================================
+2025-10-28 12:25:32,615 [INFO] UPLOAD COMPLETE
+2025-10-28 12:25:32,616 [INFO] ====================================================================================================
+2025-10-28 12:25:32,616 [INFO] Duration: 0:00:25.271035
+2025-10-28 12:25:32,618 [INFO]   Total files:       24
+2025-10-28 12:25:32,625 [INFO]   Total size:        0.01 GB
+2025-10-28 12:25:32,626 [INFO]   Average speed:     0.28 MB/s
+2025-10-28 12:25:32,630 [INFO] 
+  FUTURES:
+2025-10-28 12:25:32,630 [INFO]     crudeoil            :      2 files |      0.1 MB
+2025-10-28 12:25:32,630 [INFO]     goldm               :      2 files |      0.2 MB
+2025-10-28 12:25:32,630 [INFO]     naturalgas          :      2 files |      0.3 MB
+2025-10-28 12:25:32,631 [INFO]     silverm             :      2 files |      0.2 MB
+2025-10-28 12:25:32,631 [INFO] 
+  OPTIONS:
+2025-10-28 12:25:32,631 [INFO]     crudeoil_call       :      2 files |      2.0 MB
+2025-10-28 12:25:32,631 [INFO]     crudeoil_put        :      2 files |      1.7 MB
+2025-10-28 12:25:32,631 [INFO]     goldm_call          :      2 files |      0.2 MB
+2025-10-28 12:25:32,631 [INFO]     goldm_put           :      2 files |      0.2 MB
+2025-10-28 12:25:32,631 [INFO]     naturalgas_call     :      2 files |      1.0 MB
+2025-10-28 12:25:32,631 [INFO]     naturalgas_put      :      2 files |      0.8 MB
+2025-10-28 12:25:32,631 [INFO]     silverm_call        :      2 files |      0.2 MB
+2025-10-28 12:25:32,631 [INFO]     silverm_put         :      2 files |      0.1 MB
+2025-10-28 12:25:32,632 [INFO]   Space Endpoint: https://blr1.digitaloceanspaces.com
+2025-10-28 12:25:32,632 [INFO]   Space Name: historical-db-tick
+2025-10-28 12:25:32,632 [INFO]   Data Path: raw/parquet_data/
+2025-10-28 12:25:32,633 [INFO]   raw/parquet_data/cash/[symbol]/YYYY/MM/*.parquet
+2025-10-28 12:25:32,633 [INFO]   raw/parquet_data/options/[symbol_call|symbol_put]/YYYY/MM/*.parquet
+2025-10-28 12:25:32,633 [INFO]   raw/parquet_data/futures/[symbol]/YYYY/MM/*.parquet
+2025-10-28 12:25:32,634 [INFO] ====================================================================================================
